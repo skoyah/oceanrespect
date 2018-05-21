@@ -1,11 +1,14 @@
-<nav class="flex justify-end">
+<nav class="navbar flex justify-between">
+    {{-- LEFT SIDE --}}
+    <h1>COMPANY LOGO</h1>
 
-    <ul class="flex list-reset mt-4 bg-red">
+    {{-- RIGHT SIDE --}}
+    <ul class="flex list-reset self-start bg-red">
 
         <li class="mx-4">
             <a href="">Diving</a>
             {{-- Diving Dropdown --}}
-            <ul class="list-reset bg-blue">
+            <ul class="nav-dropdown hidden list-reset bg-blue">
                 <li>
                     <a href="">Courses</a>
                 </li>
@@ -13,6 +16,7 @@
                     <a href="">Trips</a>
                 </li>
             </ul>
+            {{-- End of dropdown --}}
         </li>
 
         <li class="mx-4">
