@@ -1,14 +1,14 @@
-<nav class="navbar flex justify-between">
+<nav class="navbar flex justify-between items-center">
     {{-- LEFT SIDE --}}
     <h1>COMPANY LOGO</h1>
 
     {{-- RIGHT SIDE --}}
-    <ul class="flex list-reset self-start bg-red">
+    <ul class="flex list-reset">
 
         <li class="mx-4">
             <a href="">Diving</a>
             {{-- Diving Dropdown --}}
-            <ul class="nav-dropdown hidden list-reset bg-blue">
+            <ul class="nav-dropdown hidden list-reset">
                 <li>
                     <a href="">Courses</a>
                 </li>
@@ -29,6 +29,10 @@
 
         <li class="mx-4">
             <a href="">About</a>
+            <ul class="nav-dropdown hidden list-reset bg-green">
+                <li><a href="">Hello</a></li>
+                <li><a href="">World</a></li>
+            </ul>
         </li>
 
         <li class="mx-4">
