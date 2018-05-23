@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800);/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
    ========================================================================== */
@@ -4611,15 +4611,12 @@ button,
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: #1dbbd6;
 }
 
 a {
   text-decoration: none;
   color: inherit;
-}
-
-.nav-dropdown {
-  position: absolute;
 }
 
 @media (min-width: 576px) {
