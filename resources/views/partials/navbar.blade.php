@@ -1,18 +1,18 @@
-<nav class="navbar flex justify-between items-center bg-black text-white font-light">
+<nav class="navbar flex justify-between items-center bg-black text-white font-light py-4">
     {{-- LEFT SIDE --}}
     <h1 class="mx-4">OCEANRESPECT</h1>
 
     {{-- RIGHT SIDE --}}
     <ul class="flex list-reset">
 
-        <li class="mx-4">
-            <a href="">Diving</a>
+        <li class="dropdown-btn mx-4">
+            <a href="#">Diving</a>
             {{-- Diving Dropdown --}}
-            <ul class="nav-dropdown absolute list-reset text-black bg-white">
-                <li class="">
-                    <a href="">Courses</a>
+            <ul class="nav-dropdown absolute list-reset text-black bg-white hidden">
+                <li class="py-4 px-8">
+                    <a href="#">Courses</a>
                 </li>
-                <li class="">
+                <li class="py-4 px-8">
                     <a href="">Trips</a>
                 </li>
             </ul>
@@ -27,12 +27,16 @@
             <a href="">Research</a>
         </li>
 
-        <li class="mx-4">
-            <a href="">About</a>
+        <li class="dropdown-btn mx-4">
+            <a href="#">About</a>
             {{-- About Dropdown --}}
-            <ul class="nav-dropdown absolute list-reset text-black bg-white">
-                <li><a href="">Hello</a></li>
-                <li><a href="">World</a></li>
+            <ul class="nav-dropdown absolute list-reset text-black bg-white hidden">
+                <li class="py-4 px-8">
+                    <a href="">Hello</a>
+                </li>
+                <li class="py-4 px-8">
+                    <a href="">World</a>
+                </li>
             </ul>
             {{-- End of Dropdown --}}
         </li>
