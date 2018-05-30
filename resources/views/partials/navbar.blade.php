@@ -1,4 +1,4 @@
-<nav class="navbar flex justify-between items-center bg-black text-white font-light py-4">
+<nav class="navbar flex justify-between items-center bg-black text-white font-light py-4 z-10">
     {{-- LEFT SIDE --}}
     <h1 class="mx-4">OCEANRESPECT</h1>
 
@@ -10,21 +10,21 @@
             {{-- Diving Dropdown --}}
             <ul class="nav-dropdown absolute list-reset text-black bg-white hidden">
                 <li class="py-4 px-8">
-                    <a href="#">Courses</a>
+                    <a href="/courses">Courses</a>
                 </li>
                 <li class="py-4 px-8">
-                    <a href="">Trips</a>
+                    <a href="#">Trips</a>
                 </li>
             </ul>
             {{-- End of Dropdown --}}
         </li>
 
         <li class="mx-4">
-            <a href="">Snorkel</a>
+            <a href="#">Snorkel</a>
         </li>
 
         <li class="mx-4">
-            <a href="">Research</a>
+            <a href="#">Research</a>
         </li>
 
         <li class="dropdown-btn mx-4">
@@ -32,21 +32,21 @@
             {{-- About Dropdown --}}
             <ul class="nav-dropdown absolute list-reset text-black bg-white hidden">
                 <li class="py-4 px-8">
-                    <a href="">Hello</a>
+                    <a href="#">Hello</a>
                 </li>
                 <li class="py-4 px-8">
-                    <a href="">World</a>
+                    <a href="#">World</a>
                 </li>
             </ul>
             {{-- End of Dropdown --}}
         </li>
 
         <li class="mx-4">
-            <a href="">Gallery</a>
+            <a href="#">Gallery</a>
         </li>
 
         <li class="mx-4">
-            <a href="">Contacts</a>
+            <a href="#">Contacts</a>
         </li>
 
     </ul>

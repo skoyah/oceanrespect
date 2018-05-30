@@ -30,11 +30,10 @@
             button.addEventListener('click', toggleDropdown);
         });
 
+
         function toggleDropdown() {
             this.querySelector('.nav-dropdown').classList.toggle('hidden');
         }
-
-
 
     </script>
 </body>
