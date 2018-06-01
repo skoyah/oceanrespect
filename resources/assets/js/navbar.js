@@ -8,12 +8,25 @@ navDropdowns.forEach(navDropdown => {
     navDropdown.style.top = `${navCoords.bottom}px`;
 });
 
+
+//! Dropdown menu needs improvement!!!!
 // Toggling dropdowns
 dropdownButtons.forEach(button => {
     button.addEventListener('click', toggleDropdown);
+    button.addEventListener('mouseover', showDropdown);
+    button.addEventListener('mouseout', hideDropdown);
 });
+
 
 
 function toggleDropdown() {
     this.querySelector('.nav-dropdown').classList.toggle('hidden');
+}
+
+function showDropdown() {
+    this.querySelector('.nav-dropdown').classList.remove('hidden');
+}
+
+function hideDropdown() {
+    this.querySelector('.nav-dropdown').classList.add('hidden');
 }
