@@ -34,40 +34,40 @@
         @card
 
             @slot('imgUrl')
-            joao_rodrigues_opt.jpg
+                joao_rodrigues_opt.jpg
             @endslot
 
             @slot('name')
-            João Rodrigues
+                João Rodrigues
             @endslot
 
             @slot('position')
-            Co-founder | Technical director
+                Co-founder | Technical director
             @endslot
 
             @slot('divingCertifications')
-            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI Open Water Scuba Instructor</li>
-            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI Enriched Air Nitrox Specialty Instructor</li>
-            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI Tec Gas Blender Instructor</li>
-            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI EFR Instructor</li>
-            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">ITD Instructor</li>
-            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">RAID Rebreather diver level 4</li>
-            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">GUE Technical diver level 1</li>
-            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">GUE Cave diver level 1</li>
-            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">CMAS Scientific diver</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI Open Water Scuba Instructor</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI Enriched Air Nitrox Specialty Instructor</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI Tec Gas Blender Instructor</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI EFR Instructor</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">ITD Instructor</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">RAID Rebreather diver level 4</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">GUE Technical diver level 1</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">GUE Cave diver level 1</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">CMAS Scientific diver</li>
             @endslot
 
             @slot('nauticalCertifications')
-            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Local Skipper</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Local Skipper</li>
             @endslot
 
             @slot('academics')
-            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Degree in Biology</li>
-            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Master in Marine Biodiversity and Conservation</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Degree in Biology</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Master in Marine Biodiversity and Conservation</li>
             @endslot
 
             @slot('other')
-            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Natural History and Conservation Photojournalist</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Natural History and Conservation Photojournalist</li>
             @endslot
 
         @endcard
@@ -103,8 +103,8 @@
             @endslot
 
             @slot('other')
-            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Multimedia Technician</li>
-            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Photographer and Videographer</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Multimedia Technician</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Photographer and Videographer</li>
             @endslot
 
         @endcard
@@ -139,8 +139,8 @@
             @endslot
 
             @slot('other')
-            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Consultant in Offshore Aquaculture</li>
-            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Owner of Algarve Dolphin Lovers, Lda.</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Consultant in Offshore Aquaculture</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Owner of Algarve Dolphin Lovers, Lda.</li>
             @endslot
 
         @endcard
