@@ -1,11 +1,11 @@
     {{-- Profile card --}}
-    <div class="staff-card flex flex-col bg-white m-4">
+    <div class="staff-card flex flex-col bg-white m-2">
 
         {{-- Profile pic --}}
         <img src="/img/staff/{{ $imgUrl }}" alt="{{ $name }}">
 
         {{-- Content --}}
-        <div class="p-8 flex flex-col items-center">
+        <div class="p-2 flex flex-col items-center">
 
             <h2 class="font-semibold mb-2">
                 {{ $name }}
@@ -63,7 +63,7 @@
 
             </div>
 
-            <div class="flex flex-col mb-2 border-b w-4/5">
+            <div class="flex flex-col mb-2 w-4/5">
 
                 <h4 class="mb-2 self-start text-blue-light font-semibold">
                     Other

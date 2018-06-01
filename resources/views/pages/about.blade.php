@@ -28,47 +28,47 @@
         <h1 class="self-start font-semibold text-2xl border-b-2 border-blue-light -mb-2px">Staff</h1>
     </div>
 
-    <div class="flex">
+    <div class="flex flex-wrap">
 
         {{-- Card --}}
         @card
 
-        @slot('imgUrl')
-        joao_rodrigues_opt.jpg
-        @endslot
+            @slot('imgUrl')
+            joao_rodrigues_opt.jpg
+            @endslot
 
-        @slot('name')
-        João Rodrigues
-        @endslot
+            @slot('name')
+            João Rodrigues
+            @endslot
 
-        @slot('position')
-        Co-founder | Technical director
-        @endslot
+            @slot('position')
+            Co-founder | Technical director
+            @endslot
 
-        @slot('divingCertifications')
-        <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI Open Water Scuba Instructor</li>
-        <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI Enriched Air Nitrox Specialty Instructor</li>
-        <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI Tec Gas Blender Instructor</li>
-        <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI EFR Instructor</li>
-        <li class="antialiased text-xs font-semibold text-grey-darker mb-3">ITD Instructor</li>
-        <li class="antialiased text-xs font-semibold text-grey-darker mb-3">RAID Rebreather diver level 4</li>
-        <li class="antialiased text-xs font-semibold text-grey-darker mb-3">GUE Technical diver level 1</li>
-        <li class="antialiased text-xs font-semibold text-grey-darker mb-3">GUE Cave diver level 1</li>
-        <li class="antialiased text-xs font-semibold text-grey-darker mb-3">CMAS Scientific diver</li>
-        @endslot
+            @slot('divingCertifications')
+            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI Open Water Scuba Instructor</li>
+            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI Enriched Air Nitrox Specialty Instructor</li>
+            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI Tec Gas Blender Instructor</li>
+            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI EFR Instructor</li>
+            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">ITD Instructor</li>
+            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">RAID Rebreather diver level 4</li>
+            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">GUE Technical diver level 1</li>
+            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">GUE Cave diver level 1</li>
+            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">CMAS Scientific diver</li>
+            @endslot
 
-        @slot('nauticalCertifications')
-        <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Local Skipper</li>
-        @endslot
+            @slot('nauticalCertifications')
+            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Local Skipper</li>
+            @endslot
 
-        @slot('academics')
-        <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Degree in Biology</li>
-        <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Master in Marine Biodiversity and Conservation</li>
-        @endslot
+            @slot('academics')
+            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Degree in Biology</li>
+            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Master in Marine Biodiversity and Conservation</li>
+            @endslot
 
-        @slot('other')
-        <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Natural History and Conservation Photojournalist</li>
-        @endslot
+            @slot('other')
+            <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Natural History and Conservation Photojournalist</li>
+            @endslot
 
         @endcard
 
@@ -141,6 +141,71 @@
             @slot('other')
             <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Consultant in Offshore Aquaculture</li>
             <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Owner of Algarve Dolphin Lovers, Lda.</li>
+            @endslot
+
+        @endcard
+
+        {{-- Card --}}
+        @card
+
+            @slot('imgUrl')
+                diogo_brito_opt.jpg
+            @endslot
+
+            @slot('name')
+                Diogo Brito
+            @endslot
+
+            @slot('position')
+                Divemaster
+            @endslot
+
+            @slot('divingCertifications')
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI Divemaster</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI Enriched Air Diver</li>
+            @endslot
+
+            @slot('nauticalCertifications')
+            @endslot
+
+            @slot('academics')
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Master in Marine Biology</li>
+            @endslot
+
+            @slot('other')
+            @endslot
+
+        @endcard
+
+        {{-- Card --}}
+        @card
+
+            @slot('imgUrl')
+                rodrigo_opt.jpg
+            @endslot
+
+            @slot('name')
+                José Branco
+            @endslot
+
+            @slot('position')
+                Divemaster
+            @endslot
+
+            @slot('divingCertifications')
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI Divemaster</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI Enriched Air Diver</li>
+            @endslot
+
+            @slot('nauticalCertifications')
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Local Skipper</li>
+            @endslot
+
+            @slot('academics')
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Master in Marine Biology</li>
+            @endslot
+
+            @slot('other')
             @endslot
 
         @endcard

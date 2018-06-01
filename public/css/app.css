@@ -3536,7 +3536,7 @@ a {
 .staff-card > img {
   -o-object-fit: cover;
      object-fit: cover;
-  height: 250px;
+  height: 200px;
   -o-object-position: center 0;
      object-position: center 0;
 }
