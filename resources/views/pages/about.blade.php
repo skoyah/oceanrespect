@@ -113,7 +113,7 @@
         @card
 
             @slot('imgUrl')
-                nuno_potes_opt.jpg
+                rodrigo_opt.jpg
             @endslot
 
             @slot('name')
