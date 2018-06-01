@@ -13,4 +13,8 @@
 
 Route::view('', 'pages.home');
 Route::view('/courses', 'pages.courses');
+Route::view('/trips', 'pages.trips');
 Route::view('/about', 'pages.about');
+Route::view('/snorkel', 'pages.snorkel');
+Route::view('/research', 'pages.research');
+Route::view('/contact', 'pages.contact');
