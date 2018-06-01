@@ -1,0 +1,10 @@
+.staff-card {
+    width: 300px;
+    box-shadow: $card-shadow;
+}
+
+.staff-card > img {
+    object-fit: cover;
+    height: 250px;
+    object-position: center 0;
+}

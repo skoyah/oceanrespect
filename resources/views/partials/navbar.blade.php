@@ -1,4 +1,4 @@
-<nav class="navbar flex justify-between items-center bg-black text-white font-light py-4 z-10">
+<nav class="navbar flex justify-between items-center bg-black text-white font-light py-4 z-10 overflow-hidden">
     {{-- LEFT SIDE --}}
     <h1 class="mx-4">OCEANRESPECT</h1>
 
@@ -6,7 +6,7 @@
     <ul class="flex list-reset">
 
         <li class="dropdown-btn mx-4">
-            <a href="#">Diving</a>
+            <a href="#" class=" pb-6">Diving</a>
             {{-- Diving Dropdown --}}
             <ul class="nav-dropdown absolute list-reset text-black bg-white hidden">
                 <li class="py-4 px-8">
@@ -28,7 +28,7 @@
         </li>
 
         <li class="dropdown-btn mx-4">
-            <a href="#">About</a>
+            <a href="#" class="pb-6">About</a>
             {{-- About Dropdown --}}
             <ul class="nav-dropdown absolute list-reset text-black bg-white hidden">
                 <li class="py-4 px-8">

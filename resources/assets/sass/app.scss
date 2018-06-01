@@ -6,12 +6,16 @@
 
 @import 'custom-reset';
 
+$card-shadow: 0 1px 5px #dcdcdc;
+
+
+
 #wrapper {
-    max-width: 960px;
+    width: 960px;
 }
 
 .course-card {
-    box-shadow: 0 1px 5px #dcdcdc;
+    box-shadow: $card-shadow;
     width: 300px;
     height: 200px;
     overflow: hidden;
@@ -26,3 +30,5 @@
 .course-card-footer {
     background-color: rgba(#fff, 0.8);
 }
+
+@import 'about-page';

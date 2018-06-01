@@ -4,19 +4,19 @@
 
         <ul class="list-reset flex">
             <li>
-                <a href="#"><img src="#" alt="instagram account"></a>
+                <a href="#"><i class="fab fa-instagram mx-2 fa-2x  text-grey-dark hover:text-grey-light"></i></a>
             </li>
 
             <li>
-                <a href="#"><img src="#" alt="twitter account"></a>
+                <a href="#"><i class="fab fa-facebook-square mx-2 fa-2x  text-grey-dark hover:text-grey-light"></i></a>
             </li>
 
             <li>
-                <a href="#"><img src="#" alt="facebook account"></a>
+                <a href="#"><i class="fab fa-twitter-square mx-2 fa-2x  text-grey-dark hover:text-grey-light"></i></a>
             </li>
 
             <li>
-                <a href="#"><img src="#" alt="linkedin account"></a>
+                <a href="#"><i class="fab fa-tripadvisor mx-2 fa-2x  text-grey-dark hover:text-grey-light"></i></a>
             </li>
         </ul>
 
