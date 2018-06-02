@@ -3541,6 +3541,13 @@ a {
      object-position: center 0;
 }
 
+.staff-achievements {
+  max-height: 0;
+  opacity: 1;
+  -webkit-transition: max-height .2s ease-in-out, opacity .2s linear;
+  transition: max-height .2s ease-in-out, opacity .2s linear;
+}
+
 @media (min-width: 576px) {
   .sm\:list-reset {
     list-style: none;

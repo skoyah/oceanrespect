@@ -1,5 +1,5 @@
     {{-- Profile card --}}
-    <div class="staff-card flex flex-col bg-white m-2">
+    <div class="staff-card flex flex-col bg-white m-2 self-start">
 
         {{-- Profile pic --}}
         <img src="/img/staff/{{ $imgUrl }}" alt="{{ $name }}">
@@ -28,8 +28,15 @@
                 </a>
             </div>
 
+            <div class="flex justify-end w-4/5 mb-2 accordion cursor-pointer">
+                <i class="fas fa-angle-double-down fa-lg"></i>
+            </div>
 
-            <div class="flex flex-col mb-2 border-b  w-4/5">
+        </div>
+
+        {{-- Achievements --}}
+        <div class="staff-achievements px-2 flex flex-col items-center overflow-hidden">
+            <div class="flex flex-col mb-2 border-b w-4/5">
 
                 <h4 class="mb-2 self-start text-blue-light font-semibold">
                     Diving certifications
@@ -73,7 +80,6 @@
                 </ul>
 
             </div>
-
         </div>
 
     </div> {{-- End of Profile card --}}
