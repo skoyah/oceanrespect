@@ -28,7 +28,7 @@
         <h1 class="self-start font-semibold text-2xl border-b-2 border-blue-light -mb-2px">Staff</h1>
     </div>
 
-    <div class="flex flex-wrap">
+    <div class="flex flex-wrap justify-center lg:justify-start">
 
         {{-- Card --}}
         @card

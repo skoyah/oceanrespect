@@ -28,18 +28,8 @@
             <a href="/research">Research</a>
         </li>
 
-        <li class="dropdown-btn mx-4">
+        <li class="mx-4">
             <a href="/about" class="pb-6">About</a>
-            {{-- About Dropdown --}}
-            <ul class="nav-dropdown absolute list-reset text-black bg-white hidden">
-                <li class="py-4 px-8">
-                    <a href="#">Hello</a>
-                </li>
-                <li class="py-4 px-8">
-                    <a href="#">World</a>
-                </li>
-            </ul>
-            {{-- End of Dropdown --}}
         </li>
 
         <li class="mx-4">

@@ -3504,13 +3504,13 @@ a {
 }
 
 #wrapper {
-  width: 960px;
+  max-width: 960px;
 }
 
 .course-card {
   -webkit-box-shadow: 0 1px 5px #dcdcdc;
           box-shadow: 0 1px 5px #dcdcdc;
-  width: 300px;
+  max-width: 300px;
   height: 200px;
   overflow: hidden;
 }
@@ -3528,7 +3528,7 @@ a {
 }
 
 .staff-card {
-  width: 300px;
+  width: 280px;
   -webkit-box-shadow: 0 1px 5px #dcdcdc;
           box-shadow: 0 1px 5px #dcdcdc;
 }
