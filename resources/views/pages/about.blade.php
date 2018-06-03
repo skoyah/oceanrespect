@@ -165,14 +165,8 @@
                 <li class="antialiased text-xs font-semibold text-grey-darker mb-3">PADI Enriched Air Diver</li>
             @endslot
 
-            @slot('nauticalCertifications')
-            @endslot
-
             @slot('academics')
                 <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Master in Marine Biology</li>
-            @endslot
-
-            @slot('other')
             @endslot
 
         @endcard
@@ -203,9 +197,6 @@
 
             @slot('academics')
                 <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Master in Marine Biology</li>
-            @endslot
-
-            @slot('other')
             @endslot
 
         @endcard
