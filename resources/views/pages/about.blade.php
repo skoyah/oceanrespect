@@ -217,11 +217,6 @@
         accordion.addEventListener('click', toggleAccordion);
     });
 
-    // staffAchievements.forEach(achievement => {
-    //     achievement.classList.remove('flex');
-    //     achievement.classList.add('hidden');
-    // });
-
     function toggleAccordion() {
         const accordionContent = this.parentElement.nextElementSibling;
 
