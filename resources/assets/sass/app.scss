@@ -8,7 +8,13 @@
 
 $card-shadow: 0 1px 5px #dcdcdc;
 
+#burguer-menu > i {
+    height: 2px;
+}
 
+#burguer-menu:hover > i {
+    @apply .bg-grey-light;
+}
 
 #wrapper {
     max-width: 960px;

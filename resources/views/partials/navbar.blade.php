@@ -4,7 +4,16 @@
     <h1 class="mx-4">OCEANRESPECT</h1>
 
     {{-- RIGHT SIDE --}}
-    <ul class="flex list-reset">
+    {{-- Nav menu for small devices--}}
+    <div id="burguer-menu" class="w-6 h-4 flex flex-col justify-between mr-4 cursor-pointer lg:hidden">
+        <i class="w-full bg-grey block rounded"></i>
+        <i class="w-full bg-grey block rounded"></i>
+        <i class="w-full bg-grey block rounded"></i>
+    </div>
+
+
+    {{-- Nav menu for large devices --}}
+    <ul class="hidden list-reset lg:flex">
 
         <li class="dropdown-btn mx-4">
             <a href="#" class=" pb-6">Diving</a>

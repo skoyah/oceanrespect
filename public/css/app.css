@@ -3503,6 +3503,14 @@ a {
   color: inherit;
 }
 
+#burguer-menu > i {
+  height: 2px;
+}
+
+#burguer-menu:hover > i {
+  background-color: #dae1e7;
+}
+
 #wrapper {
   max-width: 960px;
 }
