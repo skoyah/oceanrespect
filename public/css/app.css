@@ -3503,12 +3503,43 @@ a {
   color: inherit;
 }
 
+.nav-bar {
+  -webkit-box-shadow: 0 1px 5px #dcdcdc;
+          box-shadow: 0 1px 5px #dcdcdc;
+}
+
 #burguer-menu > i {
   height: 2px;
 }
 
 #burguer-menu:hover > i {
   background-color: #dae1e7;
+}
+
+.navbar-accordion {
+  max-height: 0;
+  opacity: 1;
+  -webkit-transition: max-height .2s ease-in-out, opacity .2s linear;
+  transition: max-height .2s ease-in-out, opacity .2s linear;
+}
+
+.navbar-responsive {
+  max-height: 0;
+  -webkit-transition: max-height .2s ease-in-out;
+  transition: max-height .2s ease-in-out;
+}
+
+#logo {
+  width: 350px;
+  height: 80px;
+}
+
+#brand {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: left;
+     object-position: left;
+  margin-top: -35px;
 }
 
 #wrapper {

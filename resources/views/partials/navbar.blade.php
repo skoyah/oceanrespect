@@ -1,10 +1,39 @@
-<nav class="navbar flex justify-between items-center bg-black text-white font-light py-4 z-10 overflow-hidden">
+<nav class="navbar flex justify-between items-center bg-black text-white font-light z-10 relative">
 
     {{-- LEFT SIDE --}}
-    <h1 class="mx-4">OCEANRESPECT</h1>
-
+    <div id="logo" class="">
+        <img src="/img/brand/logo-full.png" alt="Ocean Respect Ecodive Center" id="brand">
+    </div>
     {{-- RIGHT SIDE --}}
+
     {{-- Nav menu for small devices--}}
+    <ul class="navbar-responsive list-reset lg:hidden absolute bg-grey-darkest w-full flex flex-col items-center bg-grey-darkest overflow-hidden">
+        <li class="bg-black w-full text-center border-t border-grey-darkest">
+            <a href="#" class="accordion inline-block p-4 w-full">Diving</a>
+        </li>
+        <ul class="navbar-accordion flex flex-col list-reset bg-grey-darkest w-full text-red overflow-hidden">
+            <li class="text-center hover:bg-grey-dark"><a href="#" class="inline-block p-4 w-full text-grey">Courses</a></li>
+            <li class="text-center hover:bg-grey-dark"><a href="#" class="inline-block p-4 w-full text-grey">Trips</a></li>
+        </ul>
+        <li class="bg-black w-full text-center border-t border-grey-darkest">
+            <a href="#" class="inline-block p-4 w-full">Snorkel</a>
+        </li>
+        <li class="bg-black w-full text-center border-t border-grey-darkest">
+            <a href="#" class="inline-block p-4 w-full">Research</a>
+        </li>
+        <li class="bg-black w-full text-center border-t border-grey-darkest">
+            <a href="#" class="inline-block p-4 w-full">About</a>
+        </li>
+        <li class="bg-black w-full text-center border-t border-grey-darkest">
+            <a href="#" class="inline-block p-4 w-full">Gallery</a>
+        </li>
+        <li class="bg-black w-full text-center border-t border-grey-darkest">
+            <a href="#" class="inline-block p-4 w-full">Contacts</a>
+        </li>
+
+    </ul>
+
+    {{-- Burguer icon --}}
     <div id="burguer-menu" class="w-6 h-4 flex flex-col justify-between mr-4 cursor-pointer lg:hidden">
         <i class="w-full bg-grey block rounded"></i>
         <i class="w-full bg-grey block rounded"></i>

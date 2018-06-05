@@ -4,17 +4,13 @@
 
 @tailwind utilities;
 
-@import 'custom-reset';
-
 $card-shadow: 0 1px 5px #dcdcdc;
 
-#burguer-menu > i {
-    height: 2px;
-}
+@import 'custom-reset';
 
-#burguer-menu:hover > i {
-    @apply .bg-grey-light;
-}
+@import 'navbar';
+
+
 
 #wrapper {
     max-width: 960px;
