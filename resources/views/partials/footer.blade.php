@@ -1,4 +1,4 @@
-    <footer class="bg-grey-darkest text-white flex flex-col md:flex-row justify-between items-center p-8 font-light text-xs tracking-wide">
+    <footer class="bg-black text-white flex flex-col md:flex-row justify-between items-center p-8 font-light text-xs tracking-wide">
 
         <p>Copyright &copy; 2018 OceanRespect. All Rights Reserved.</p>
 

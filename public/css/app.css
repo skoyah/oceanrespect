@@ -3169,6 +3169,10 @@ button,
   font-size: 3rem;
 }
 
+.text-6xl {
+  font-size: 4rem;
+}
+
 .italic {
   font-style: italic;
 }
@@ -6115,6 +6119,10 @@ a {
     font-size: 3rem;
   }
 
+  .sm\:text-6xl {
+    font-size: 4rem;
+  }
+
   .sm\:italic {
     font-style: italic;
   }
@@ -8968,6 +8976,10 @@ a {
     font-size: 3rem;
   }
 
+  .md\:text-6xl {
+    font-size: 4rem;
+  }
+
   .md\:italic {
     font-style: italic;
   }
@@ -11819,6 +11831,10 @@ a {
 
   .lg\:text-5xl {
     font-size: 3rem;
+  }
+
+  .lg\:text-6xl {
+    font-size: 4rem;
   }
 
   .lg\:italic {
