@@ -6,29 +6,19 @@
 
 $card-shadow: 0 1px 5px #dcdcdc;
 
+@import 'loader';
+
 @import 'custom-reset';
 
 @import 'navbar';
 
 #wrapper {
     max-width: 960px;
+    transition: opacity .3s linear;
 }
 
-.course-card {
-    box-shadow: $card-shadow;
-    max-width: 300px;
-    height: 200px;
-    overflow: hidden;
-}
-
-.course-card img {
-    object-fit: cover;
-    opacity: 0.9;
-    object-position: center center;
-}
-
-.course-card-footer {
-    background-color: rgba(#fff, 0.8);
-}
+@import 'courses-page';
 
 @import 'about-page';
+
+@import 'contact-page';

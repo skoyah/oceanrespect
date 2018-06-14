@@ -86,6 +86,27 @@ module.exports = __webpack_require__(3);
 
 __webpack_require__(2);
 
+var nav = document.querySelector('.navbar');
+var navCoords = nav.getBoundingClientRect();
+var loader = document.querySelector('.loading');
+var footer = document.querySelector('footer');
+
+loader.style.height = 'calc(100vh - ' + navCoords.bottom + 'px)';
+
+window.addEventListener("load", function () {
+
+    var loadingAnimation = document.querySelector('#is-loading');
+
+    loadingAnimation.classList.add('opacity-0');
+
+    setTimeout(function () {
+        document.querySelector('#wrapper').classList.remove('opacity-0');
+        document.querySelector('#wrapper').classList.add('opacity-1');
+    }, 300);
+
+    document.body.removeChild(loadingAnimation);
+});
+
 document.addEventListener("DOMContentLoaded", function () {
     var accordions = document.querySelectorAll('.accordion');
 
@@ -120,15 +141,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
     var nav = document.querySelector('.navbar');
-    var navDropdowns = document.querySelectorAll('.nav-dropdown');
+    var navDropdowns = document.querySelectorAll('.dropdown');
     var dropdownButtons = document.querySelectorAll('.dropdown-btn');
     var navCoords = nav.getBoundingClientRect();
     var responsiveNav = document.querySelector('.navbar-responsive');
     var burguerIcon = document.querySelector('#burguer-menu');
 
     // Getting navbar coords to position dropdown menus
-    navDropdowns.forEach(function (navDropdown) {
-        navDropdown.style.top = navCoords.bottom + 'px';
+    navDropdowns.forEach(function (dropdown) {
+        dropdown.style.top = navCoords.bottom + 'px';
     });
 
     // Responsive nav menu gets positioned below navbar
@@ -137,11 +158,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Toggling dropdowns
     dropdownButtons.forEach(function (button) {
         button.addEventListener('click', toggleDropdown);
-        button.addEventListener('mouseover', showDropdown);
-        button.addEventListener('mouseout', hideDropdown);
     });
 
-    // Toggling Responsive Navbar with burguer icon
+    // !Toggling Responsive Navbar with burguer icon
     burguerIcon.addEventListener('click', function () {
         console.log(document.querySelector('.navbar-accordion').scrollHeight);
     });
@@ -149,15 +168,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Functions
     function toggleDropdown() {
-        this.querySelector('.nav-dropdown').classList.toggle('hidden');
-    }
-
-    function showDropdown() {
-        this.querySelector('.nav-dropdown').classList.remove('hidden');
-    }
-
-    function hideDropdown() {
-        this.querySelector('.nav-dropdown').classList.add('hidden');
+        this.querySelector('.dropdown').classList.toggle('hidden');
     }
 
     function toggleResponsiveNav() {

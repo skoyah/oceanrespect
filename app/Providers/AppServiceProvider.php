@@ -15,6 +15,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Blade::component('components.profile-card', 'card');
+        Blade::component('components.course-card', 'courseCard');
     }
 
     /**

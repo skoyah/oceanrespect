@@ -1,9 +1,11 @@
-<nav class="navbar flex justify-between items-center bg-black text-white font-light z-10 relative">
+<nav class="navbar flex justify-between items-center bg-black text-white font-light z-10">
 
     {{-- LEFT SIDE --}}
-    <div id="logo" class="">
+    <a href="/" id="logo">
         <img src="/img/brand/logo-full.png" alt="Ocean Respect Ecodive Center" id="brand">
-    </div>
+    </a>
+
+
     {{-- RIGHT SIDE --}}
 
     {{-- Nav menu for small devices--}}
@@ -45,9 +47,9 @@
     <ul class="hidden list-reset lg:flex">
 
         <li class="dropdown-btn mx-4">
-            <a href="#" class=" pb-6">Diving</a>
+            <a href="#" class="pb-6">Diving</a>
             {{-- Diving Dropdown --}}
-            <ul class="nav-dropdown absolute list-reset text-black bg-white hidden">
+            <ul class="dropdown hidden list-reset text-black bg-white absolute shadow z-50">
                 <li class="py-4 px-8">
                     <a href="/courses">Courses</a>
                 </li>

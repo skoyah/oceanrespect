@@ -9,6 +9,32 @@
 
 require('./navbar.js');
 
+const nav = document.querySelector('.navbar');
+const navCoords = nav.getBoundingClientRect();
+const loader = document.querySelector('.loading');
+const footer = document.querySelector('footer');
+
+loader.style.height = `calc(100vh - ${navCoords.bottom}px)`;
+
+
+
+
+
+window.addEventListener("load", () => {
+
+    const loadingAnimation = document.querySelector('#is-loading');
+
+    loadingAnimation.classList.add('opacity-0');
+
+    setTimeout(() => {
+        document.querySelector('#wrapper').classList.remove('opacity-0');
+        document.querySelector('#wrapper').classList.add('opacity-1');
+    }, 300);
+
+
+    document.body.removeChild(loadingAnimation);
+});
+
 document.addEventListener("DOMContentLoaded", () => {
     const accordions = document.querySelectorAll('.accordion');
 

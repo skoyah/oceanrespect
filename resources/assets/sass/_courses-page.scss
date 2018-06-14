@@ -1,0 +1,26 @@
+// .course-card {
+//     box-shadow: $card-shadow;
+//     max-width: 300px;
+//     height: 200px;
+//     overflow: hidden;
+// }
+
+// .course-card img {
+//     object-fit: cover;
+//     opacity: 0.9;
+//     object-position: center center;
+// }
+
+// .course-card-footer {
+//     background-color: rgba(#fff, 0.8);
+// }
+
+
+.card {
+    box-shadow: $card-shadow;
+    width: 250px;
+}
+
+.card header {
+    height: 200px;
+}

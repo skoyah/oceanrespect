@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
     const nav = document.querySelector('.navbar');
-    const navDropdowns = document.querySelectorAll('.nav-dropdown');
+    const navDropdowns = document.querySelectorAll('.dropdown');
     const dropdownButtons = document.querySelectorAll('.dropdown-btn');
     const navCoords = nav.getBoundingClientRect();
     const responsiveNav = document.querySelector('.navbar-responsive');
     const burguerIcon = document.querySelector('#burguer-menu');
 
     // Getting navbar coords to position dropdown menus
-    navDropdowns.forEach(navDropdown => {
-        navDropdown.style.top = `${navCoords.bottom}px`;
+    navDropdowns.forEach(dropdown => {
+        dropdown.style.top = `${navCoords.bottom}px`;
     });
 
     // Responsive nav menu gets positioned below navbar
@@ -17,11 +17,9 @@ document.addEventListener("DOMContentLoaded", () => {
     // Toggling dropdowns
     dropdownButtons.forEach(button => {
         button.addEventListener('click', toggleDropdown);
-        button.addEventListener('mouseover', showDropdown);
-        button.addEventListener('mouseout', hideDropdown);
     });
 
-    // Toggling Responsive Navbar with burguer icon
+    // !Toggling Responsive Navbar with burguer icon
     burguerIcon.addEventListener('click', () => {
         console.log(document.querySelector('.navbar-accordion').scrollHeight);
     });
@@ -30,15 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Functions
     function toggleDropdown() {
-        this.querySelector('.nav-dropdown').classList.toggle('hidden');
-    }
-
-    function showDropdown() {
-        this.querySelector('.nav-dropdown').classList.remove('hidden');
-    }
-
-    function hideDropdown() {
-        this.querySelector('.nav-dropdown').classList.add('hidden');
+        this.querySelector('.dropdown').classList.toggle('hidden');
     }
 
     function toggleResponsiveNav() {

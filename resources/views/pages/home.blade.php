@@ -18,6 +18,10 @@
 </head>
 <body class="h-screen flex flex-col">
 
+    <div id="is-loading" class="flex items-center justify-center w-screen bg-black h-screen absolute pin-t z-50">
+        <div id="loading-content"></div>
+    </div>
+
     @include('partials.navbar')
 
     <div id="wrapper" class="hero mx-auto px-8 md:px-6 lg:px-0 flex-1 flex pt-8">
@@ -26,6 +30,8 @@
         <h2 class="text-grey-light font-normal tracking-wide text-base italic antialiased">Jacques Yves Cousteau</h2>
         </div>
     </div>
+
+
 
 
 
