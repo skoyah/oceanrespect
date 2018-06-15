@@ -10,10 +10,10 @@
 </head>
 <body class="bg-grey-lighter min-h-screen flex flex-col justify-between">
 
-    <div>
+    <div id="page-header">
         @include('partials.navbar')
 
         <div id="is-loading" class="loading flex items-center justify-center w-screen absolute">
-            <div id="loading-content""></div>
+            <div id="loading-content"></div>
         </div>
     </div>

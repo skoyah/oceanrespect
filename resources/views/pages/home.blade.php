@@ -18,11 +18,13 @@
 </head>
 <body class="h-screen flex flex-col">
 
-    <div id="is-loading" class="flex items-center justify-center w-screen bg-black h-screen absolute pin-t z-50">
-        <div id="loading-content"></div>
-    </div>
+    <div>
+        @include('partials.navbar')
 
-    @include('partials.navbar')
+        <div id="is-loading" class="bg-white loading flex items-center justify-center w-screen absolute">
+            <div id="loading-content"></div>
+        </div>
+    </div>
 
     <div id="wrapper" class="hero mx-auto px-8 md:px-6 lg:px-0 flex-1 flex pt-8">
         <div>
@@ -36,7 +38,7 @@
 
 
 
-    <script src="/js/app.js"></script>
+
 
     <script>
         const nav = document.querySelector('.navbar');
@@ -62,5 +64,6 @@
         }
 
     </script>
+    <script src="/js/app.js"></script>
 </body>
 </html>

@@ -24,6 +24,7 @@ window.addEventListener("load", () => {
 
     const loadingAnimation = document.querySelector('#is-loading');
 
+
     loadingAnimation.classList.add('opacity-0');
 
     setTimeout(() => {
@@ -31,8 +32,8 @@ window.addEventListener("load", () => {
         document.querySelector('#wrapper').classList.add('opacity-1');
     }, 300);
 
-
-    document.body.removeChild(loadingAnimation);
+    document.body.querySelector('#page-header').removeChild(loadingAnimation);
+    // document.body.removeChild(loadingAnimation);
 });
 
 document.addEventListener("DOMContentLoaded", () => {
