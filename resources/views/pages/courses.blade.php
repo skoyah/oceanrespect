@@ -130,6 +130,10 @@
             @endslot
         @endcourseCard
 
+        @courseModal
+
+        @endcourseModal
+
     </main>
 
 @endsection
