@@ -131,6 +131,30 @@
         @endcourseCard
 
         @courseModal
+            @slot('course')
+                Advanced Open Water
+            @endslot
+
+            @slot('duration')
+                1.5h
+            @endslot
+
+            @slot('equipment')
+                Included
+            @endslot
+
+            @slot('age')
+                18 +
+            @endslot
+
+            @slot('description')
+                <p class="mb-4">
+                    Bubblemaker is as fun as it sounds – a chance for kids to blow bubbles by scuba diving. Children who are at least 8 years old can use scuba gear to breathe underwater and swim around in shallow water. Have a party or celebrate a birthday by throwing a memorable, exciting Bubblemaker event with friends and family at OCEAN RESPECT - ecodive center! Enjoy up to two hours in the pool learning the basics of scuba diving with a dive professional!
+                </p>
+                <p class="mb-4">
+                    Beginning with an introduction session on the poolside, you'll move on into the pool and will have heaps of fun as you get used to all the equipment and learn how to move around and breathe underwater. You'll quickly gain confidence and will be hooked for life once you try out this fast-growing and exciting sport!
+                </p>
+            @endslot
         @endcourseModal
 
     </main>
