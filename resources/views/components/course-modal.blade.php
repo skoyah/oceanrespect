@@ -1,10 +1,12 @@
-<div id="modal" class="absolute w-screen min-h-full pin-l pin-t flex justify-center items-start p-6">
-    <div class="bg-white w-full antialiased text-grey-darker md:w-2/3 lg:w-2/5">
+<div id="modal" class="absolute w-screen min-h-full pin-l pin-t justify-center items-start p-6 hidden">
+    <div class="course-modal bg-white w-full antialiased text-grey-darker md:w-2/3 lg:w-2/5">
         <header class="bg-blue text-white flex justify-between items-center p-4">
             <h2 class="uppercase text-sm font-semibold">Advanced Open Water</h2>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="h-4 w-4 hover:text-grey-light fill-current cursor-pointer">
-                <path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"/>
-            </svg>
+            <div class="close-modal">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="h-4 w-4 hover:text-grey-light fill-current cursor-pointer">
+                    <path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z"/>
+                </svg>
+            </div>
         </header>
         <div>
             <div class="flex text-grey-dark text-xs border-b p-6 mb-4 items-center justify-between">

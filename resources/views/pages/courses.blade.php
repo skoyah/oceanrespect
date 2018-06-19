@@ -131,7 +131,6 @@
         @endcourseCard
 
         @courseModal
-
         @endcourseModal
 
     </main>
@@ -145,6 +144,28 @@
 
 @section('script')
 <script>
-    const courses = Array.from(document.querySelectorAll('.course-card'));
+    const cardBtns = document.querySelectorAll('.card-btn');
+    const modalCloseButton = document.querySelector('.close-modal');
+
+    modalCloseButton.addEventListener('click', (e) => {
+        const modal = e.currentTarget.parentElement.parentElement.parentElement;
+
+        modal.classList.remove('flex');
+        modal.classList.add('hidden');
+
+    });
+
+    cardBtns.forEach(button => {
+        button.addEventListener('click', (e) => {
+            e.preventDefault();
+            const btnTarget = e.target;
+            const modal = document.querySelector('#modal');
+
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+
+        });
+    });
+
 </script>
 @endsection

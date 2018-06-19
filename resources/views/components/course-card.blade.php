@@ -10,7 +10,7 @@
 
     <footer class="flex justify-between px-6 pt-4 pb-6">
 
-        <a href="#" class="shadow-md text-white inline-block bg-blue py-3 px-6 text-sm font-semibold">
+        <a href="#" class="card-btn shadow-md text-white inline-block bg-blue py-3 px-6 text-sm font-semibold hover:bg-blue-dark">
             More info
         </a>
 
@@ -20,4 +20,5 @@
         </span>
 
     </footer>
+
 </div>

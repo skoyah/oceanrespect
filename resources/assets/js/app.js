@@ -12,11 +12,8 @@ require('./navbar.js');
 const nav = document.querySelector('.navbar');
 const navCoords = nav.getBoundingClientRect();
 const loader = document.querySelector('.loading');
-const footer = document.querySelector('footer');
 
 loader.style.height = `calc(100vh - ${navCoords.bottom}px)`;
-
-
 
 
 
@@ -33,7 +30,6 @@ window.addEventListener("load", () => {
     }, 300);
 
     document.body.querySelector('#page-header').removeChild(loadingAnimation);
-    // document.body.removeChild(loadingAnimation);
 });
 
 document.addEventListener("DOMContentLoaded", () => {

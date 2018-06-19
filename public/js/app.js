@@ -89,7 +89,6 @@ __webpack_require__(2);
 var nav = document.querySelector('.navbar');
 var navCoords = nav.getBoundingClientRect();
 var loader = document.querySelector('.loading');
-var footer = document.querySelector('footer');
 
 loader.style.height = 'calc(100vh - ' + navCoords.bottom + 'px)';
 
@@ -105,7 +104,6 @@ window.addEventListener("load", function () {
     }, 300);
 
     document.body.querySelector('#page-header').removeChild(loadingAnimation);
-    // document.body.removeChild(loadingAnimation);
 });
 
 document.addEventListener("DOMContentLoaded", function () {

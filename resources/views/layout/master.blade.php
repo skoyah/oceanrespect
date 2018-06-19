@@ -5,7 +5,7 @@
     @yield('content')
 </div>
 
-@yield('script')
+
 
 @include('partials.footer')
 
