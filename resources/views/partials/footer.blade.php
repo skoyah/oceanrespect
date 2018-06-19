@@ -1,6 +1,6 @@
     <footer class="bg-black text-white flex flex-col md:flex-row justify-between items-center p-8 font-light text-xs tracking-wide">
 
-        <p>Copyright &copy; 2018 OceanRespect. All Rights Reserved.</p>
+        <p class="mb-6 md:mb-0">Copyright &copy; 2018 OceanRespect. All Rights Reserved.</p>
 
         <ul class="list-reset flex">
             <li>

@@ -1,4 +1,4 @@
-<div id="modal" class="fixed w-screen min-h-full pin-t justify-center items-start p-6 hidden">
+<div class="modal absolute w-screen min-h-full pin-t justify-center items-start p-6 hidden" id="modal-{{$modalId}}">
 
     <div class="course-modal bg-white w-full antialiased text-grey-darker md:w-2/3 lg:w-2/5">
         <header class="bg-blue text-white flex justify-between items-center p-4">
