@@ -3791,6 +3791,13 @@ a {
   transition: opacity .3s linear;
 }
 
+#homepage {
+  background-image: url("/img/hero/hero_01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
 .card {
   -webkit-box-shadow: 0 1px 5px #dcdcdc;
           box-shadow: 0 1px 5px #dcdcdc;

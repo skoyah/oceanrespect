@@ -6,19 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>OceanRespect</title>
     <link rel="stylesheet" href="css/app.css">
-    <style>
-        body {
-            background-image: url('/img/hero/hero_01.jpg');
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: top center;
-        }
-
-    </style>
 </head>
-<body class="h-screen flex flex-col">
+<body class="h-screen flex flex-col" id="homepage">
 
-    <div>
+    <div id="page-header">
         @include('partials.navbar')
 
         <div id="is-loading" class="bg-white loading flex items-center justify-center w-screen absolute">
