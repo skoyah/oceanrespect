@@ -1,7 +1,7 @@
 <div class="card flex flex-col bg-white antialiased justify-between m-2">
 
     <header class="overflow-hidden">
-    <img src="https://source.unsplash.com/random/400x400?{{$img}}" alt="">
+    {{-- <img src="https://source.unsplash.com/random/400x400?{{$img}}" alt=""> --}}
     </header>
 
     <h1 class="px-6 pt-4 font-normal text-lg tracking-wide text-black antialiased">
@@ -10,13 +10,13 @@
 
     <footer class="flex justify-between px-6 pt-4 pb-6">
 
-    <a href="#" class="card-btn shadow-md text-white inline-block bg-blue py-3 px-6 text-sm font-semibold hover:bg-blue-dark" data-modal="modal-{{$modalId}}">
+    <a href="#" class="card-btn uppercase rounded bg-blue-lightest text-blue-light inline-block hover:bg-blue-light hover:text-white py-3 px-4 text-sm font-bold" data-modal="modal-{{$modalId}}">
             More info
         </a>
 
 
-        <span class="inline-block tracking-wide self-center text-3xl text-blue font-semibold">
-            {{$price}}
+        <span class="inline-block self-center text-3xl text-grey-darker font-semibold">
+            {{$price}}<sup class="text-lg">€</sup>
         </span>
 
     </footer>

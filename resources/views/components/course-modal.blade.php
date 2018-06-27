@@ -1,7 +1,8 @@
-<div class="modal absolute w-screen min-h-full pin-t justify-center items-start p-6 hidden" id="modal-{{$modalId}}">
+<div class="modal fixed h-screen pin-t w-full items-center items-start p-6 flex-col hidden opacity-0" id="modal-{{$modalId}}">
 
-    <div class="course-modal bg-white w-full antialiased text-grey-darker md:w-2/3 lg:w-2/5">
-        <header class="bg-blue text-white flex justify-between items-center p-4">
+
+    <div class="course-modal flex flex-col bg-white w-full max-h-full antialiased text-grey-darker md:w-2/3 lg:w-2/5">
+        <header class="bg-blue-light text-white flex justify-between items-center p-4">
             <h2 class="uppercase text-sm font-semibold">
                 {{$course}}
             </h2>
@@ -12,7 +13,7 @@
             </div>
         </header>
 
-        <div>
+        <div class="flex flex-col">
             <div class="flex text-grey-dark text-xs border-b p-6 mb-4 items-center justify-between">
                 <div class="flex flex-col items-center">
                     <h3>Duration</h3>
@@ -36,13 +37,13 @@
                 </div>
             </div>
 
-            <div class="text-sm leading-normal p-6">
+            <div class="text-sm leading-normal p-6 overflow-auto">
                 <h3 class="mb-2">Description</h3>
 
                 {{$description}}
             </div>
 
-            <button class="py-6 flex w-full justify-center uppercase text-grey-darker border-t hover:bg-green hover:text-white font-semibold tracking-wide">Contact Us</button>
+            <button class="mt-4 py-6 flex w-full justify-center uppercase text-green border-t hover:bg-green-light hover:text-white font-semibold tracking-wide">Contact Us</button>
         </div>
 
     </div>

@@ -3,10 +3,11 @@
 }
 #loading-content {
     width: 80px;
+
     height: 80px;
     border: 3px solid transparent;
-    border-top-color: #4D658D;
-    border-bottom-color: #4D658D;
+    border-top-color: #2779BD;
+    border-bottom-color: #2779BD;
     border-radius: 50%;
     animation: loader 2s linear infinite;
 }
@@ -20,8 +21,8 @@
     top: 15px;
     bottom: 15px;
     border: 3px solid transparent;
-    border-top-color: #84417C;
-    border-bottom-color: #84417C;
+    border-top-color: #BCDEFA;
+    border-bottom-color: #BCDEFA;
     border-radius: 50%;
     animation: loader 1.5s linear infinite;
 }
@@ -35,8 +36,8 @@
     top: 5px;
     bottom: 5px;
     border: 3px solid transparent;
-    border-top-color: #D4CC6A;
-    border-bottom-color: #D4CC6A;
+    border-top-color: #3490DC;
+    border-bottom-color: #3490DC;
     border-radius: 50%;
     animation: loader 3s linear infinite;
 }

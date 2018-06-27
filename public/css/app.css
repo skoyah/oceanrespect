@@ -3674,8 +3674,8 @@ button,
   width: 80px;
   height: 80px;
   border: 3px solid transparent;
-  border-top-color: #4d658d;
-  border-bottom-color: #4d658d;
+  border-top-color: #2779bd;
+  border-bottom-color: #2779bd;
   border-radius: 50%;
   -webkit-animation: loader 2s linear infinite;
           animation: loader 2s linear infinite;
@@ -3690,8 +3690,8 @@ button,
   top: 15px;
   bottom: 15px;
   border: 3px solid transparent;
-  border-top-color: #84417c;
-  border-bottom-color: #84417c;
+  border-top-color: #bcdefa;
+  border-bottom-color: #bcdefa;
   border-radius: 50%;
   -webkit-animation: loader 1.5s linear infinite;
           animation: loader 1.5s linear infinite;
@@ -3706,8 +3706,8 @@ button,
   top: 5px;
   bottom: 5px;
   border: 3px solid transparent;
-  border-top-color: #d4cc6a;
-  border-bottom-color: #d4cc6a;
+  border-top-color: #3490dc;
+  border-bottom-color: #3490dc;
   border-radius: 50%;
   -webkit-animation: loader 3s linear infinite;
           animation: loader 3s linear infinite;
@@ -3759,6 +3759,11 @@ a {
   background-color: #dae1e7;
 }
 
+.navbar a {
+  -webkit-transition: color .2s linear;
+  transition: color .2s linear;
+}
+
 .navbar-accordion {
   max-height: 0;
   opacity: 1;
@@ -3772,17 +3777,14 @@ a {
   transition: max-height .2s ease-in-out;
 }
 
-#logo {
-  width: 350px;
-  height: 80px;
+.navbar-responsive a {
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
 }
 
 #brand {
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: left;
-     object-position: left;
-  margin-top: -35px;
+  width: 200px;
+  height: auto;
 }
 
 #wrapper {
@@ -3808,10 +3810,20 @@ a {
   height: 200px;
 }
 
+.card-btn {
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
 .modal {
   background-color: rgba(0, 0, 0, .8);
-  -webkit-transition: opacity 1s linear;
-  transition: opacity 1s linear;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+.course-modal button {
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
 }
 
 .staff-card {
@@ -3833,6 +3845,11 @@ a {
   opacity: 1;
   -webkit-transition: max-height .2s ease-in-out, opacity .2s linear;
   transition: max-height .2s ease-in-out, opacity .2s linear;
+}
+
+.profile-social i {
+  -webkit-transition: color .2s linear;
+  transition: color .2s linear;
 }
 
 textarea {

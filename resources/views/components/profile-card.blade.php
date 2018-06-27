@@ -7,7 +7,7 @@
         {{-- Content --}}
         <div class="p-2 flex flex-col items-center">
 
-            <h2 class="font-semibold mb-2">
+            <h2 class="text-lg font-semibold my-2">
                 {{ $name }}
             </h2>
 
@@ -16,20 +16,20 @@
             </h3>
 
             {{-- social links --}}
-            <div class="flex justify-center mb-2 pb-4 w-4/5 text-grey-light">
+            <div class="profile-social flex justify-center mb-2 pb-4 w-4/5 text-grey-light">
                 <a href="#">
-                    <i class="fab fa-instagram mx-2 fa-2x hover:text-grey-darker"></i>
+                    <i class="fab fa-instagram mx-3 text-2xl hover:text-grey-darker"></i>
                 </a>
                 <a href="#">
-                    <i class="fab fa-facebook-square mx-2 fa-2x hover:text-grey-darker"></i>
+                    <i class="fab fa-facebook-square mx-3 text-2xl hover:text-grey-darker"></i>
                 </a>
                 <a href="#">
-                    <i class="fas fa-link mx-2 fa-2x hover:text-grey-darker"></i>
+                    <i class="fas fa-link mx-3 text-2xl hover:text-grey-darker"></i>
                 </a>
             </div>
 
-            <div class="flex justify-end w-4/5 mb-2 accordion cursor-pointer">
-                <i class="fas fa-angle-double-down bg-blue-light hover:bg-blue py-1 px-2 rounded text-white"></i>
+            <div class="flex justify-center w-4/5 mb-2 accordion cursor-pointer">
+                <i class="fas fa-angle-down text-lg py-1 px-2 rounded text-blue-light"></i>
             </div>
 
         </div>

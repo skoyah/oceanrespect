@@ -7,7 +7,15 @@
     height: 200px;
 }
 
+.card-btn {
+    transition: all .2s linear;
+}
+
 .modal {
     background-color: rgba(0, 0, 0, .8);
-    transition: opacity 1s linear;
+    transition: all .2s linear;
+}
+
+.course-modal button {
+    transition: all .2s linear;
 }

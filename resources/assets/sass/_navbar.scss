@@ -10,6 +10,10 @@
     @apply .bg-grey-light;
 }
 
+.navbar a {
+    transition: color .2s linear;
+}
+
 .navbar-accordion {
     max-height: 0;
     opacity: 1;
@@ -21,14 +25,12 @@
     transition: max-height 0.2s ease-in-out;
 }
 
-#logo {
-    width: 350px;
-    height: 80px;
+.navbar-responsive a {
+    transition: all .2s linear;
 }
 
 #brand {
-    object-fit: cover;
-    object-position: left;
-    margin-top: -35px;
+    width: 200px;
+    height: auto;
 }
 

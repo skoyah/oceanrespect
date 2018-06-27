@@ -2,6 +2,9 @@
 
 @section('content')
     {{-- Courses list --}}
+    <div class="flex mb-6 mt-10 border-b-2 border-grey-light">
+            <h1 class="self-start font-semibold text-2xl border-b-2 border-blue-light -mb-2px">Diving Courses</h1>
+        </div>
     <main class="flex flex-wrap justify-center my-8">
 
 
@@ -16,7 +19,7 @@
             @endslot
 
             @slot('price')
-                40€
+                40
             @endslot
 
             @slot('modalId')
@@ -34,7 +37,7 @@
             @endslot
 
             @slot('price')
-                120€
+                120
             @endslot
 
 
@@ -53,7 +56,7 @@
             @endslot
 
             @slot('price')
-                320€
+                320
             @endslot
 
             @slot('modalId')
@@ -71,7 +74,7 @@
             @endslot
 
             @slot('price')
-                400€
+                400
             @endslot
 
             @slot('modalId')
@@ -89,7 +92,7 @@
             @endslot
 
             @slot('price')
-                800€
+                800
             @endslot
 
             @slot('modalId')
@@ -99,7 +102,7 @@
 
         @courseCard
             @slot('img')
-                divers
+                diver
             @endslot
 
             @slot('course')
@@ -107,7 +110,7 @@
             @endslot
 
             @slot('price')
-                125€
+                125
             @endslot
 
             @slot('modalId')
@@ -125,7 +128,7 @@
             @endslot
 
             @slot('price')
-                125€
+                125
             @endslot
 
             @slot('modalId')
@@ -143,7 +146,7 @@
             @endslot
 
             @slot('price')
-                250€
+                250
             @endslot
 
             @slot('modalId')
@@ -161,7 +164,7 @@
             @endslot
 
             @slot('price')
-                325€
+                325
             @endslot
 
             @slot('modalId')
@@ -475,6 +478,7 @@
 
     const cardBtns = document.querySelectorAll('.card-btn');
     const modalCloseButton = document.querySelectorAll('.close-modal');
+    const modalContainers = document.querySelectorAll('.modal');
 
     cardBtns.forEach(button => {
 
@@ -489,6 +493,11 @@
             modal.classList.remove('hidden');
             modal.classList.add('flex');
 
+            setTimeout(() => {
+                modal.classList.remove('opacity-0');
+                modal.classList.add('opacity-1');
+            }, 10);
+
         });
     });
 
@@ -498,9 +507,32 @@
 
             const modal = e.currentTarget.parentElement.parentElement.parentElement;
 
-            modal.classList.remove('flex');
-            modal.classList.add('hidden');
+            modal.classList.add('opacity-0');
+            modal.classList.remove('opacity-1');
 
+            setTimeout(() => {
+                modal.classList.remove('flex');
+                modal.classList.add('hidden');
+            }, 200);
+
+        });
+    });
+
+    modalContainers.forEach(modalContainer => {
+        modalContainer.addEventListener('click', (e) => {
+
+            if(e.currentTarget == e.target) {
+                const container = e.currentTarget;
+
+                container.classList.add('opacity-0');
+                container.classList.remove('opacity-1');
+
+                setTimeout(() => {
+                    container.classList.remove('flex');
+                    container.classList.add('hidden');
+                }, 200);
+
+            }
         });
     });
 

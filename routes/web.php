@@ -17,4 +17,5 @@ Route::view('/trips', 'pages.trips');
 Route::view('/about', 'pages.about');
 Route::view('/snorkel', 'pages.snorkel');
 Route::view('/research', 'pages.research');
+Route::view('/gallery', 'pages.gallery');
 Route::view('/contact', 'pages.contact');
