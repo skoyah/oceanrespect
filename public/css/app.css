@@ -4608,6 +4608,16 @@ a {
   color: inherit;
 }
 
+input,
+textarea {
+  color: #606f7b;
+  font-size: .875rem;
+}
+
+textarea {
+  line-height: 2;
+}
+
 .nav-bar {
   -webkit-box-shadow: 0 1px 5px #dcdcdc;
           box-shadow: 0 1px 5px #dcdcdc;
