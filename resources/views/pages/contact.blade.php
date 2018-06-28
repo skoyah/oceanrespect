@@ -38,17 +38,33 @@
         <div class="flex flex-col sm:flex-row">
             <div class="flex flex-col sm:flex-1 sm:mr-2">
                 <label for="name" class="text-xs font-semibold tracking-wide text-grey-dark uppercase mb-2">Name</label>
-                <input type="text" name="name" class="mb-6 p-3 border border-grey-light outline-none" required>
+                <input
+                    type="text"
+                    name="name"
+                    class="mb-6 p-3 border border-grey-light outline-none"
+                    value="{{ old('name') }}"
+                    required>
             </div>
 
             <div class="flex flex-col sm:flex-1 sm:ml-2">
                 <label for="email" class="text-xs font-semibold tracking-wide text-grey-dark uppercase mb-2">Email</label>
-                <input type="email" name="email" class="mb-6 p-3 border border-grey-light outline-none" required>
+                <input
+                    type="email"
+                    name="email"
+                    class="mb-6 p-3 border border-grey-light outline-none"
+                    value="{{ old('email') }}"
+                    required>
             </div>
         </div>
 
         <label for="message" class="text-xs font-semibold tracking-wide text-grey-dark uppercase mb-2">Message</label>
-        <textarea name="message" id="message" cols="30" rows="10" class="mb-4 p-3 border border-grey-light outline-none" required></textarea>
+        <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            class="mb-4 p-3 border border-grey-light outline-none"
+            required>{{ old('message') }}</textarea>
 
         <button type="submit" class="uppercase bg-green-light hover:bg-green sm:w-1/3  md:w-2/5 lg:w-1/5 text-white p-3 tracking-wide focus:outline-none">Send message</button>
     </form>
