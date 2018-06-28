@@ -12,10 +12,12 @@
 */
 
 Route::view('', 'pages.home');
-Route::view('/courses', 'pages.courses');
+Route::view('/courses', 'pages.courses')->name('courses');
 Route::view('/trips', 'pages.trips');
 Route::view('/about', 'pages.about');
 Route::view('/snorkel', 'pages.snorkel');
 Route::view('/research', 'pages.research');
 Route::view('/gallery', 'pages.gallery');
-Route::view('/contact', 'pages.contact');
+
+Route::get('/contact', 'ContactController@index')->name('contact');
+Route::post('/contact', 'ContactController@send');

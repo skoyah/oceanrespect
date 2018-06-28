@@ -258,23 +258,29 @@
             @endslot
 
             @slot('duration')
-                ?
+                2 days
             @endslot
 
             @slot('equipment')
-                ?
+                Included
             @endslot
 
             @slot('age')
-                ?
+                12 +
             @endslot
 
             @slot('description')
                 <p class="mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus at minus iusto. Numquam magni ratione accusamus officia excepturi, eius atque voluptatum optio porro ullam maxime iure dolores et ducimus aperiam.
+                    That’s what the PADI Advanced Open Water Diver course is all about. You don’t have to be “advanced” to take it – it’s designed to advance your diving, so you can start right after earning your PADI Open Water Diver certification. The course helps build confidence and expand your scuba skills through different Adventure Dives. You try out different specialties while gaining experience under the supervision of your PADI Instructor. You log dives and develop capabilities as you find new ways to have fun scuba diving.
                 </p>
                 <p class="mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quos voluptatibus ullam id praesentium repellendus explicabo deserunt dolores alias ea.
+                    Get credit! Each Adventure Dive may credit toward the first dive of the corresponding PADI Specialty Diver Course. If you’ve already taken a specialty diver course, ask your instructor if you’ve earned credit for an Adventure Dive.
+                </p>
+                <p class="mb-4">
+                    PADI (Junior) Open Water Divers who are at least 12 years old are ready to step up and enroll in an Advanced Open Water Diver course. Young divers may only participate in certain Adventures Dives – check with your PADI Instructor.
+                </p>
+                <p class="mb-4">
+                    If you’re already an Adventure Diver, you only need to complete two more Adventure Dives to earn the Advanced Open Water Diver certification.
                 </p>
             @endslot
         @endcourseModal
@@ -289,15 +295,15 @@
             @endslot
 
             @slot('duration')
-                ?
+                2 days
             @endslot
 
             @slot('equipment')
-                ?
+                Included
             @endslot
 
             @slot('age')
-                ?
+                12 +
             @endslot
 
             @slot('description')
@@ -324,11 +330,11 @@
             @endslot
 
             @slot('equipment')
-                ?
+                Included
             @endslot
 
             @slot('age')
-                ?
+                12 +
             @endslot
 
             @slot('description')
@@ -351,15 +357,15 @@
             @endslot
 
             @slot('duration')
-                ?
+                1 day
             @endslot
 
             @slot('equipment')
-                ?
+                Included
             @endslot
 
             @slot('age')
-                ?
+                12 +
             @endslot
 
             @slot('description')

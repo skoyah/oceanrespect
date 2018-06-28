@@ -43,7 +43,7 @@
                 {{$description}}
             </div>
 
-            <button class="mt-4 py-6 flex w-full justify-center uppercase text-green border-t hover:bg-green-light hover:text-white font-semibold tracking-wide">Contact Us</button>
+            <button class="mt-4 py-6 flex w-full justify-center uppercase text-green border-t hover:bg-green-light hover:text-white font-semibold tracking-wide focus:outline-none">Contact Us</button>
         </div>
 
     </div>
