@@ -1,9 +1,9 @@
-<div class="modal fixed h-screen pin-t w-full items-center items-start p-6 flex-col hidden opacity-0" id="modal-{{$modalId}}">
+<div class="modal fixed h-screen pin-t w-full justify-center items-center items-start p-6 flex-col hidden opacity-0" id="modal-{{$modalId}}">
 
 
     <div class="course-modal flex flex-col bg-white w-full max-h-full antialiased text-grey-darker md:w-2/3 lg:w-2/5">
         <header class="bg-blue-light text-white flex justify-between items-center p-4">
-            <h2 class="uppercase text-sm font-semibold">
+            <h2 class="uppercase text-sm font-bold">
                 {{$course}}
             </h2>
             <div class="close-modal">
@@ -37,7 +37,7 @@
                 </div>
             </div>
 
-            <div class="text-sm leading-normal p-6 overflow-auto">
+            <div class="text-sm leading-loose p-6 overflow-auto">
                 <h3 class="mb-2">Description</h3>
 
                 {{$description}}
