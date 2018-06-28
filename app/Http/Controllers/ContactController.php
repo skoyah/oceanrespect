@@ -28,6 +28,7 @@ class ContactController extends Controller
 
         Mail::to('support@oceanrespect.com')->send(new Contact($data));
 
-        return redirect()->route('contact');
+        return redirect()->route('contact')->with('status', 'Message sent successfuly!');
+
     }
 }

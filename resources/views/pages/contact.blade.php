@@ -18,22 +18,18 @@
     <form action="/contact" method="post" class="flex flex-col my-10">
         {{ csrf_field() }}
 
-        @if( count($errors) )
+        @include('errors.contact')
 
-        <div class="flex items-center text-red-light bg-red-lightest px-4 py-2 sm:self-start mb-8 rounded border border-red-lighter">
-            <i class="fas fa-exclamation-triangle mr-4 text-3xl"></i>
+        @if(session('status'))
+            <div class="flex items-center text-green-light bg-green-lightest px-4 py-2 sm:self-start mb-8 rounded border border-green-lighter">
+                <i class="fas fa-check-circle mr-4 text-3xl"></i>
 
-            <ul class="list-reset block text-sm">
-
-                @foreach($errors->all() as $error)
-                    <li class="my-2">
-                        {{ $error }}
-                    </li>
-                @endforeach
-            </ul>
-        </div>
-
+                <p class="my-2 text-sm">
+                    {{session('status')}}
+                </p>
+            </div>
         @endif
+
 
         <div class="flex flex-col sm:flex-row">
             <div class="flex flex-col sm:flex-1 sm:mr-2">
