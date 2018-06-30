@@ -6,6 +6,10 @@
 
 $card-shadow: 0 1px 5px #dcdcdc;
 
+.transition-opacity {
+    transition: opacity 0.2s linear;
+}
+
 @import 'loader';
 
 @import 'custom-reset';

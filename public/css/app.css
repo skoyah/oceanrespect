@@ -4815,6 +4815,11 @@ table {
   z-index: auto;
 }
 
+.transition-opacity {
+  -webkit-transition: opacity .2s linear;
+  transition: opacity .2s linear;
+}
+
 #is-loading {
   -webkit-transition: opacity .2s linear;
   transition: opacity .2s linear;

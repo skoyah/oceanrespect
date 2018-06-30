@@ -1,4 +1,4 @@
-<nav class="navbar flex justify-between items-center bg-white text-grey-dark font-light z-10 shadow">
+<nav class="navbar flex justify-between items-center bg-white text-grey-dark z-50 shadow">
 
     {{-- LEFT SIDE --}}
     <a href="/" class="p-4">
