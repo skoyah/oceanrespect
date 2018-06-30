@@ -159,10 +159,8 @@ document.addEventListener("DOMContentLoaded", function () {
         button.addEventListener('click', toggleDropdown);
     });
 
-    // !Toggling Responsive Navbar with burguer icon
-    burguerIcon.addEventListener('click', function () {
-        console.log(document.querySelector('.navbar-accordion').scrollHeight);
-    });
+    // Toggling Responsive Navbar with burguer icon
+
     burguerIcon.addEventListener('click', toggleResponsiveNav);
 
     // Functions
@@ -171,12 +169,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function toggleResponsiveNav() {
-        var navAccordion = document.querySelectorAll('.navbar-accordion');
+        var accordions = Array.from(document.querySelectorAll('.navbar-accordion'));
 
-        // Expanding all the accordions in the navbar to calculate the entire height of th Responsive navbar in order to proper expand it when clicking the burger icon
+        var accordionsTotalHeight = accordions.reduce(function (total, accordion) {
+            return total + accordion.scrollHeight;
+        }, 0);
 
-
-        var responsiveNavHeight = responsiveNav.scrollHeight + 'px';
+        var responsiveNavHeight = responsiveNav.scrollHeight + accordionsTotalHeight + 'px';
 
         if (responsiveNav.style.maxHeight) {
             // Responsive nav is open, we need to close it

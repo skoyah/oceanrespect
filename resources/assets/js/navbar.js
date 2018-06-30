@@ -6,6 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const responsiveNav = document.querySelector('.navbar-responsive');
     const burguerIcon = document.querySelector('#burguer-menu');
 
+
+
+
     // Getting navbar coords to position dropdown menus
     navDropdowns.forEach(dropdown => {
         dropdown.style.top = `${navCoords.bottom}px`;
@@ -19,10 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
         button.addEventListener('click', toggleDropdown);
     });
 
-    // !Toggling Responsive Navbar with burguer icon
-    burguerIcon.addEventListener('click', () => {
-        console.log(document.querySelector('.navbar-accordion').scrollHeight);
-    });
+    // Toggling Responsive Navbar with burguer icon
+
     burguerIcon.addEventListener('click', toggleResponsiveNav);
 
 
@@ -32,15 +33,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function toggleResponsiveNav() {
-        const navAccordion = document.querySelectorAll('.navbar-accordion');
-
-        // Expanding all the accordions in the navbar to calculate the entire height of th Responsive navbar in order to proper expand it when clicking the burger icon
+        const accordions = Array.from(document.querySelectorAll('.navbar-accordion'));
 
 
+        const accordionsTotalHeight = accordions.reduce((total, accordion) => {
+            return total + accordion.scrollHeight;
+        }, 0);
 
-
-
-        const responsiveNavHeight = `${responsiveNav.scrollHeight}px`;
+        const responsiveNavHeight = `${responsiveNav.scrollHeight + accordionsTotalHeight}px`;
 
         if (responsiveNav.style.maxHeight) {
             // Responsive nav is open, we need to close it
