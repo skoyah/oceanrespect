@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('layout.landing')
 
 @section('content')
 
@@ -12,12 +12,4 @@
     <h2 class="text-grey-light font-normal tracking-wide text-base italic antialiased">Jacques Yves Cousteau</h2>
 </div>
 
-@endsection
-
-@section('script')
-    <script>
-        document.body.setAttribute('id', 'homepage');
-        document.querySelector('footer').classList.remove('flex');
-        document.querySelector('footer').classList.add('hidden');
-    </script>
 @endsection
