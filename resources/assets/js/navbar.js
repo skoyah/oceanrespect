@@ -6,9 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const responsiveNav = document.querySelector('.navbar-responsive');
     const burguerIcon = document.querySelector('#burguer-menu');
 
-
-
-
     // Getting navbar coords to position dropdown menus
     navDropdowns.forEach(dropdown => {
         dropdown.style.top = `${navCoords.bottom}px`;
@@ -23,32 +20,21 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Toggling Responsive Navbar with burguer icon
-
     burguerIcon.addEventListener('click', toggleResponsiveNav);
 
-
-    // Functions
     function toggleDropdown() {
         this.querySelector('.dropdown').classList.toggle('hidden');
     }
 
     function toggleResponsiveNav() {
         const accordions = Array.from(document.querySelectorAll('.navbar-accordion'));
-
-
         const accordionsTotalHeight = accordions.reduce((total, accordion) => {
             return total + accordion.scrollHeight;
         }, 0);
-
         const responsiveNavHeight = `${responsiveNav.scrollHeight + accordionsTotalHeight}px`;
 
-        if (responsiveNav.style.maxHeight) {
-            // Responsive nav is open, we need to close it
-            responsiveNav.style.maxHeight = null;
-        } else {
-            // Responsive nav is closed, we need to open it
-            responsiveNav.style.maxHeight = responsiveNavHeight;
-        }
-
+        return (responsiveNav.style.maxHeight
+            ? responsiveNav.style.maxHeight = null
+            : responsiveNav.style.maxHeight = responsiveNavHeight);
     }
 });

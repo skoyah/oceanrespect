@@ -160,30 +160,20 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Toggling Responsive Navbar with burguer icon
-
     burguerIcon.addEventListener('click', toggleResponsiveNav);
 
-    // Functions
     function toggleDropdown() {
         this.querySelector('.dropdown').classList.toggle('hidden');
     }
 
     function toggleResponsiveNav() {
         var accordions = Array.from(document.querySelectorAll('.navbar-accordion'));
-
         var accordionsTotalHeight = accordions.reduce(function (total, accordion) {
             return total + accordion.scrollHeight;
         }, 0);
-
         var responsiveNavHeight = responsiveNav.scrollHeight + accordionsTotalHeight + 'px';
 
-        if (responsiveNav.style.maxHeight) {
-            // Responsive nav is open, we need to close it
-            responsiveNav.style.maxHeight = null;
-        } else {
-            // Responsive nav is closed, we need to open it
-            responsiveNav.style.maxHeight = responsiveNavHeight;
-        }
+        return responsiveNav.style.maxHeight ? responsiveNav.style.maxHeight = null : responsiveNav.style.maxHeight = responsiveNavHeight;
     }
 });
 

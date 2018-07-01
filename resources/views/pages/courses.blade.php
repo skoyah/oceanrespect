@@ -308,10 +308,10 @@
 
             @slot('description')
                 <p class="mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus at minus iusto. Numquam magni ratione accusamus officia excepturi, eius atque voluptatum optio porro ullam maxime iure dolores et ducimus aperiam.
+                    Scuba divers describe the PADI Rescue Diver course as the most challenging, yet most rewarding course they’ve ever taken. Why? Because you learn to prevent and manage problems in the water, and become more confident in your skills as a diver, knowing that you can help others if needed. During the course, you learn to become a better buddy by practicing problem solving skills until they become second nature. Plus, the course is just fun – it’s serious, but still allows for lots of laughter in between the focused learning.
                 </p>
                 <p class="mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quos voluptatibus ullam id praesentium repellendus explicabo deserunt dolores alias ea.
+                    PADI (Junior) Adventure Divers who are at least 12 years old and have completed the Underwater Navigation Adventure Dive may enroll in a Rescue Diver course. You also need to have Emergency First Response Primary and Secondary Care (CPR and First Aid) training within the past 24 months. You can complete this training during the Rescue Diver course. Your instructor may also offer the PADI Emergency Oxygen Provider specialty diver course at the same time.
                 </p>
             @endslot
         @endcourseModal
@@ -339,10 +339,30 @@
 
             @slot('description')
                 <p class="mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus at minus iusto. Numquam magni ratione accusamus officia excepturi, eius atque voluptatum optio porro ullam maxime iure dolores et ducimus aperiam.
+                    Love scuba diving? Want to share it with others on a whole new level? Take the PADI Divemaster course and do what you love to do as a career. Scuba divers look up to divemasters because they are leaders who mentor and motivate others. As a divemaster, you not only get to dive a lot, but also experience the joy of seeing others have as much fun diving as you do.
                 </p>
                 <p class="mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quos voluptatibus ullam id praesentium repellendus explicabo deserunt dolores alias ea.
+                    The PADI Divemaster course is your first level of professional training. Working closely with a PADI Instructor, you’ll fine-tune your dive skills, like perfecting the effortless hover, and refine your rescue skills so you anticipate and easily solve common problems. You’ll gain dive knowledge, management and supervision abilities so you become a role model to divers everywhere.
+                </p>
+                <p class="mb-4">
+                    As a PADI Divemaster, you’ll lead others as you supervise scuba diving activities and assist with diver training. Whether you want to work at a faraway dive destination or close to home at a local dive shop, the adventure of a lifetime awaits you. PADI Divemasters are respected dive professionals who are aligned with the largest and most respected dive organization in the world – PADI.
+                </p>
+                <p class="mb-4">
+                    PADI Rescue Divers who are at least 18 years old may enroll in the PADI Divemaster course. You also need to have:
+                    <ul class="my-4">
+                        <li class="mb-2">
+                            Emergency First Response Primary and Secondary Care (CPR and First Aid) training within the past 24 months.
+                        </li>
+                        <li class="mb-2">
+                            A medical statement signed by a physician within the last 12 months.
+                        </li>
+                        <li class="mb-2">
+                            At least 40 logged dives to begin the course and 60 dives to earn certification.
+                        </li>
+                    </ul>
+                </p>
+                <p class="mb-4">
+                    Note that qualifying certifications from other diver training organization may apply – ask your PADI Instructor.
                 </p>
             @endslot
         @endcourseModal
@@ -370,10 +390,10 @@
 
             @slot('description')
                 <p class="mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus at minus iusto. Numquam magni ratione accusamus officia excepturi, eius atque voluptatum optio porro ullam maxime iure dolores et ducimus aperiam.
+                    The PADI Enriched Air Diver course is PADI’s most popular specialty scuba course. Why? Because scuba diving with enriched air nitrox gives you more no decompression time, especially on repetitive scuba dives. If staying down longer and getting back in the water sooner sounds appealing, then don’t hesitate to become an enriched air diver.
                 </p>
                 <p class="mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quos voluptatibus ullam id praesentium repellendus explicabo deserunt dolores alias ea.
+                    If you’re a PADI (Junior) Open Water Diver who is at least 12 years old, you can enroll in the Enriched Air Diver Specialty course. Note that in some regions the minimum age is older than 12.
                 </p>
             @endslot
         @endcourseModal
@@ -392,19 +412,22 @@
             @endslot
 
             @slot('equipment')
-                ?
+                Included
             @endslot
 
             @slot('age')
-                ?
+                12 +
             @endslot
 
             @slot('description')
                 <p class="mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus at minus iusto. Numquam magni ratione accusamus officia excepturi, eius atque voluptatum optio porro ullam maxime iure dolores et ducimus aperiam.
+                    Emergency First Response training focuses on building confidence in lay rescuers and increasing their willingness to respond when faced with a medical emergency. Course participants learn simple to follow steps for emergency care and practice applying skills in a nonstressful learning environment. All courses are supported by self-study manuals, videos and quick reference cards to enhance learning and allow you start learning right away.
                 </p>
                 <p class="mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quos voluptatibus ullam id praesentium repellendus explicabo deserunt dolores alias ea.
+                    EFR courses meet the CPR and first aid training requirements for the PADI Rescue Diver course and all professional-level ratings. Most PADI Instructors are also Emergency First Response Instructors.
+                </p>
+                <p class="mb-4">
+                    The following EFR courses are based on internationally recognized medical guidelines for emergency care.
                 </p>
             @endslot
         @endcourseModal
@@ -432,10 +455,13 @@
 
             @slot('description')
                 <p class="mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus at minus iusto. Numquam magni ratione accusamus officia excepturi, eius atque voluptatum optio porro ullam maxime iure dolores et ducimus aperiam.
+                    The PADI Enriched Air Diver course is the most popular diver specialty course and the number of technical divers is on the rise, which means that lots of scuba divers want enriched air and gas blends. The Tec Gas Blender course teaches you to blend enriched air nitrox and helium-blend gases using one or more blending methods. Being the blender is a key job at a busy PADI Dive Center or Resort and your work allows other divers to do what they love to do – scuba dive.
                 </p>
                 <p class="mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quos voluptatibus ullam id praesentium repellendus explicabo deserunt dolores alias ea.
+                    If you’re a PADI Enriched Air Diver and are at least 18 years old, you can enroll in a Tec Gas Blender course.
+                </p>
+                <p class="mb-4">
+                    Note that qualifying certifications from other diver training organizations may apply – ask your Tec Gas Blender Instructor.
                 </p>
             @endslot
         @endcourseModal
@@ -463,10 +489,20 @@
 
             @slot('description')
                 <p class="mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus at minus iusto. Numquam magni ratione accusamus officia excepturi, eius atque voluptatum optio porro ullam maxime iure dolores et ducimus aperiam.
+                    Ready for the outer edge of technical diving? The Tec Trimix Diver course takes experienced tec divers and turns them into extreme divers who go deeper and visit pristine sites where few others will ever go. During the course, you’ll make dives as deep as 90 metres/300 feet, but once you earn this tough certification, there are few limits. Your training teaches you to build experience gradually and you do it because you’ve made it this far and have more exploring to do.
                 </p>
                 <p class="mb-4">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quos voluptatibus ullam id praesentium repellendus explicabo deserunt dolores alias ea.
+                    To enroll in the Tec Trimix Diver course, you must:
+
+                    <ul class="my-4">
+                        <li class="mb-2">Be a PADI Tec 50 diver or Tec Trimix 65 diver</li>
+                        <li class="mb-2">Have a minimum of 150 logged dives</li>
+                        <li class="mb-2">Are at least 18 years old</li>
+                        <li class="mb-2">Have a Medical Statement signed by a physician within the last 12 months</li>
+                    </ul>
+                </p>
+                <p class="mb-4">
+                    Note that qualifying certifications from other diver training organizations may apply – ask your Tec Trimix Instructor.
                 </p>
             @endslot
         @endcourseModal
