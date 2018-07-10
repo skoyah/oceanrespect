@@ -1,7 +1,7 @@
 <div class="card flex flex-col bg-white antialiased justify-between m-2">
 
     <header class="overflow-hidden">
-    <img src="https://source.unsplash.com/random/400x400?{{$img}}" alt="">
+    {{-- <img src="https://source.unsplash.com/random/400x400?{{$img}}" alt=""> --}}
     </header>
 
     <h1 class="px-6 pt-4 font-normal text-lg tracking-wide text-black antialiased">

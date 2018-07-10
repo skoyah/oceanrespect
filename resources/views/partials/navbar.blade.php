@@ -31,6 +31,15 @@
                 <li class="py-4 px-8">
                     <a href="/trips" class="hover:text-blue-light">Trips</a>
                 </li>
+                <li class="py-4 px-8">
+                    <a href="/gear-rental" class="hover:text-blue-light">Gear Rental</a>
+                </li>
+                <li class="py-4 px-8">
+                    <a href="/diving-sites" class="hover:text-blue-light">Spots</a>
+                </li>
+                <li class="py-4 px-8">
+                    <a href="/shark-diving" class="hover:text-blue-light">Shark Diving</a>
+                </li>
             </ul>
             {{-- End of Dropdown --}}
         </li>

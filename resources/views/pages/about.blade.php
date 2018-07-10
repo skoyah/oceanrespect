@@ -166,7 +166,7 @@
             @endslot
 
             @slot('academics')
-                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Master in Marine Biology</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Degree in Marine Biology</li>
             @endslot
 
         @endcard
@@ -196,7 +196,7 @@
             @endslot
 
             @slot('academics')
-                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Master in Marine Biology</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Degree in Marine Biology</li>
             @endslot
 
         @endcard

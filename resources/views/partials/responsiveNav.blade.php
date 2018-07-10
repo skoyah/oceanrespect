@@ -11,6 +11,15 @@
             <li class="text-center hover:bg-grey-dark">
                 <a href="/trips" class="inline-block p-4 w-full text-grey hover:bg-grey-light hover:text-white">Trips</a>
             </li>
+            <li class="text-center hover:bg-grey-dark">
+                <a href="/gear-rental" class="inline-block p-4 w-full text-grey hover:bg-grey-light hover:text-white">Gear Rental</a>
+            </li>
+            <li class="text-center hover:bg-grey-dark">
+                <a href="/diving-sites" class="inline-block p-4 w-full text-grey hover:bg-grey-light hover:text-white">Spots</a>
+            </li>
+            <li class="text-center hover:bg-grey-dark">
+                <a href="/shark-diving" class="inline-block p-4 w-full text-grey hover:bg-grey-light hover:text-white">Shark Diving</a>
+            </li>
         </ul>
 
         <li class="w-full text-center border-t border-grey-lighter">

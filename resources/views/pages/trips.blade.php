@@ -1,7 +1,7 @@
 @extends('layout.master')
 
 @section('content')
-    <div class="my-10">
+    <section class="my-10">
         <div class="flex mb-6 border-b-2 border-grey-light">
             <h1 class="self-start font-semibold text-2xl border-b-2 border-blue-light -mb-2px">Dive Trips</h1>
         </div>
@@ -19,5 +19,17 @@
         <p class="font-normal leading-loose antialiased text-grey-darkest text-justify mb-4">Excludes: Dive Gear and Wetsuit (rentals available on site).</p>
 
         <p class="font-normal antialiased text-grey-darkest">Price: <span class="font-semibold text-black">40€</span> for 1 dive / <span class="font-semibold text-black">75€</span> for 2 dives.</p>
-    </div>
+
+        <div class="grid grid-trips mt-8 overflow-hidden">
+            <div class="trip-img trip-01 bg-red">
+                <img src="./img/trips/under-and-over.jpg"  class="" alt="">
+            </div>
+            <div class="trip-img trip-02 bg-red">
+                <img src="./img/trips/happy-times.jpg"  class="" alt="">
+            </div>
+            <div class="trip-img trip-03 bg-red">
+                <img src="./img/trips/dive-buddies.jpg"  class="" alt="">
+            </div>
+        </div>
+    </section>
 @endsection

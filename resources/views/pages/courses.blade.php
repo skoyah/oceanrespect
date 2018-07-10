@@ -48,6 +48,24 @@
 
         @courseCard
             @slot('img')
+                water
+            @endslot
+
+            @slot('course')
+                Open Water
+            @endslot
+
+            @slot('price')
+                420
+            @endslot
+
+            @slot('modalId')
+                03
+            @endslot
+        @endcourseCard
+
+        @courseCard
+            @slot('img')
                 ocean
             @endslot
 
@@ -60,7 +78,7 @@
             @endslot
 
             @slot('modalId')
-                03
+                04
             @endslot
         @endcourseCard
 
@@ -78,7 +96,7 @@
             @endslot
 
             @slot('modalId')
-                04
+                05
             @endslot
         @endcourseCard
 
@@ -96,7 +114,7 @@
             @endslot
 
             @slot('modalId')
-                05
+                06
             @endslot
         @endcourseCard
 
@@ -114,7 +132,7 @@
             @endslot
 
             @slot('modalId')
-                06
+                07
             @endslot
         @endcourseCard
 
@@ -132,7 +150,7 @@
             @endslot
 
             @slot('modalId')
-                07
+                08
             @endslot
         @endcourseCard
 
@@ -150,7 +168,7 @@
             @endslot
 
             @slot('modalId')
-                08
+                09
             @endslot
         @endcourseCard
 
@@ -168,7 +186,7 @@
             @endslot
 
             @slot('modalId')
-                09
+                10
             @endslot
         @endcourseCard
 
@@ -254,6 +272,34 @@
             @endslot
 
             @slot('course')
+                Open Water
+            @endslot
+
+            @slot('duration')
+                2 days
+            @endslot
+
+            @slot('equipment')
+                Included
+            @endslot
+
+            @slot('age')
+                12 +
+            @endslot
+
+            @slot('description')
+                <p class="mb-4">
+                    If you’ve always wanted to take scuba diving lessons, experience unparalleled adventure and see the world beneath the waves, this is where it starts. Get your scuba diving certification with the PADI® Open Water Diver course – the world’s most popular and widely recognized scuba course. Millions of people have learned to scuba dive and gone on to discover the wonders of the aquatic world through this course. To enroll in a PADI Open Water Diver course (or Junior Open Water Diver course), you must be 10 years old or older. You need adequate swimming skills and need to be in good physical health. No prior experience with scuba diving is required.
+                </p>
+            @endslot
+        @endcourseModal
+
+        @courseModal
+            @slot('modalId')
+                04
+            @endslot
+
+            @slot('course')
                 Advanced Open Water
             @endslot
 
@@ -287,7 +333,7 @@
 
         @courseModal
             @slot('modalId')
-                04
+                05
             @endslot
 
             @slot('course')
@@ -318,7 +364,7 @@
 
         @courseModal
             @slot('modalId')
-                05
+                06
             @endslot
 
             @slot('course')
@@ -369,7 +415,7 @@
 
         @courseModal
             @slot('modalId')
-                06
+                07
             @endslot
 
             @slot('course')
@@ -400,7 +446,7 @@
 
         @courseModal
             @slot('modalId')
-                07
+                08
             @endslot
 
             @slot('course')
@@ -434,7 +480,7 @@
 
         @courseModal
             @slot('modalId')
-                08
+                09
             @endslot
 
             @slot('course')
@@ -468,7 +514,7 @@
 
         @courseModal
             @slot('modalId')
-                09
+                10
             @endslot
 
             @slot('course')
