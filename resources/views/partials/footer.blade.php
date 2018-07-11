@@ -8,7 +8,7 @@
             </li>
 
             <li>
-                <a href="#"><i class="fab fa-facebook-square mx-2 fa-2x  text-grey-dark hover:text-grey-light"></i></a>
+                <a href="https://www.facebook.com/Ocean-Respect-Ecodive-Center-655443638134499/" target="_blank"><i class="fab fa-facebook-square mx-2 fa-2x  text-grey-dark hover:text-grey-light"></i></a>
             </li>
 
             <li>

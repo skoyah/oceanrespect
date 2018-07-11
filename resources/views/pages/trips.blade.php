@@ -8,7 +8,7 @@
 
         <p class="font-normal leading-loose antialiased text-grey-darkest text-justify mb-4">Dive trips cater to our certified divers who want to explore the walls, reefs, and wrecks surrounding Burgau, accompanied by one of our experienced dive guides.</p>
 
-        <p class="font-normal leading-loose antialiased text-grey-darkest text-justify mb-4">Almost every morning and afternoon our boat goes out to do this type of dive trip. Usually on a two dive basis meeting at 9:00 or 13.30 everyday and returning at approximately 13.30 and 17.30 respectively.</p>
+        <p class="font-normal leading-loose antialiased text-grey-darkest text-justify mb-4">Almost every morning and afternoon our boat goes out to do this type of dive trip. Usually on a two dive basis meeting at 9:00 or 14.00 everyday and returning at approximately 13.30 and 17.30 respectively.</p>
 
         <p class="font-normal leading-loose antialiased text-grey-darkest text-justify mb-4">Certified SCUBA divers can explore the walls, reefs, and wrecks of Burgau region with the "Portugal ́s first ecodive center" - Ocean Respect.</p>
 
@@ -20,16 +20,23 @@
 
         <p class="font-normal antialiased text-grey-darkest">Price: <span class="font-semibold text-black">40€</span> for 1 dive / <span class="font-semibold text-black">75€</span> for 2 dives.</p>
 
-        <div class="grid grid-trips mt-8 overflow-hidden">
+        <div class="grid grid-trips my-10 overflow-hidden">
             <div class="trip-img trip-01 bg-red">
-                <img src="./img/trips/under-and-over.jpg"  class="" alt="">
+                <img src="./img/trips/half.jpg"  class="" alt="">
             </div>
             <div class="trip-img trip-02 bg-red">
-                <img src="./img/trips/happy-times.jpg"  class="" alt="">
+                <img src="./img/trips/cardume.jpg"  class="" alt="">
             </div>
             <div class="trip-img trip-03 bg-red">
-                <img src="./img/trips/dive-buddies.jpg"  class="" alt="">
+                <img src="./img/trips/divers.jpg"  class="" alt="">
             </div>
+            <div class="trip-img trip-04 bg-red">
+                <img src="./img/trips/salemas.jpg"  class="" alt="">
+            </div>
+        </div>
+
+        <div class="flex justify-center">
+            <a href="/contact" class="bg-green rounded py-3 px-6 tracking-wide hover:bg-green-light font-light shadow text-white uppercase text-lg">Book Now</a>
         </div>
     </section>
 @endsection

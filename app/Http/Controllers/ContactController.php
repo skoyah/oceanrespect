@@ -26,7 +26,7 @@ class ContactController extends Controller
             'bodyMessage' => $request->message
         ];
 
-        Mail::to('support@oceanrespect.com')->send(new Contact($data));
+        Mail::to('or.ecodivecenter@gmail.com')->send(new Contact($data));
 
         return redirect()->route('contact')->with('status', 'Message sent successfuly!');
 

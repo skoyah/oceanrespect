@@ -1,5 +1,6 @@
 <?php
 
+
 Route::view('', 'pages.home');
 Route::view('/courses', 'pages.courses')->name('courses');
 Route::view('/trips', 'pages.trips');

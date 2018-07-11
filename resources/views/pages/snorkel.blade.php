@@ -11,6 +11,16 @@
         <p class="font-normal leading-loose antialiased text-grey-darkest text-justify mb-4">Includes:  A guide, mask, fins, snorkel and wetsuit.</p>
 
         <p class="font-normal antialiased text-grey-darkest">Price: <span class="font-semibold">30€</span>.</p>
+
+        <div class="flex snorkel-images my-10">
+            <img src="img/snorkel/01.jpg" alt="" class="overflow-hidden">
+            <img src="img/snorkel/02.jpg" alt="" class="overflow-hidden mx-2">
+            <img src="img/snorkel/03.jpg" alt="" class="overflow-hidden">
+        </div>
+
+        <div class="flex justify-center">
+            <a href="/contact" class="bg-green rounded py-3 px-6 tracking-wide hover:bg-green-light font-light shadow text-white uppercase text-lg">Book Now</a>
+        </div>
     </div>
 @endsection
 

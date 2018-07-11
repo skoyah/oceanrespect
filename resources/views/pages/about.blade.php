@@ -166,7 +166,7 @@
             @endslot
 
             @slot('academics')
-                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Degree in Marine Biology</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Degree in Biology</li>
             @endslot
 
         @endcard
@@ -175,7 +175,7 @@
         @card
 
             @slot('imgUrl')
-                rodrigo_opt.jpg
+                jose_branco_opt.jpg
             @endslot
 
             @slot('name')
@@ -196,7 +196,7 @@
             @endslot
 
             @slot('academics')
-                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Degree in Marine Biology</li>
+                <li class="antialiased text-xs font-semibold text-grey-darker mb-3">Degree in Biology</li>
             @endslot
 
         @endcard

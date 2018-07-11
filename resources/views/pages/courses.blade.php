@@ -11,7 +11,7 @@
         {{-- Course Cards --}}
         @courseCard
             @slot('img')
-                diver
+                bubblemaker
             @endslot
 
             @slot('course')
@@ -29,7 +29,7 @@
 
         @courseCard
             @slot('img')
-                scuba
+                discover-scuba-diving
             @endslot
 
             @slot('course')
@@ -48,7 +48,7 @@
 
         @courseCard
             @slot('img')
-                water
+                open-water
             @endslot
 
             @slot('course')
@@ -66,7 +66,7 @@
 
         @courseCard
             @slot('img')
-                ocean
+                advanced-open-water
             @endslot
 
             @slot('course')
@@ -84,7 +84,7 @@
 
         @courseCard
             @slot('img')
-                sea
+                rescue-diver
             @endslot
 
             @slot('course')
@@ -102,7 +102,7 @@
 
         @courseCard
             @slot('img')
-                oceanic
+                divemaster
             @endslot
 
             @slot('course')
@@ -120,7 +120,7 @@
 
         @courseCard
             @slot('img')
-                diver
+                enriched-air
             @endslot
 
             @slot('course')
@@ -138,7 +138,7 @@
 
         @courseCard
             @slot('img')
-                underwater
+                efr
             @endslot
 
             @slot('course')
@@ -156,7 +156,7 @@
 
         @courseCard
             @slot('img')
-                shore
+                nitrox
             @endslot
 
             @slot('course')
@@ -174,7 +174,7 @@
 
         @courseCard
             @slot('img')
-                coastal
+                trimix
             @endslot
 
             @slot('course')
@@ -211,7 +211,7 @@
             @endslot
 
             @slot('age')
-                18 +
+                8 +
             @endslot
 
             @slot('description')
@@ -276,7 +276,7 @@
             @endslot
 
             @slot('duration')
-                2 days
+                3 - 4 days
             @endslot
 
             @slot('equipment')

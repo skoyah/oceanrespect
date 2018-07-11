@@ -9,7 +9,7 @@
         <span class="italic">"</span>
     </h1>
 
-    <h2 class="text-blue text-xs font-semibold tracking-wide italic antialiased">Jacques Yves Cousteau</h2>
+    <h2 class="text-blue text-xs font-semibold tracking-wide italic antialiased">- Jacques Yves Cousteau</h2>
 </div>
 
 @endsection
