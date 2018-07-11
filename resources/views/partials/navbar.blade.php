@@ -19,7 +19,7 @@
 
 
     {{-- Nav menu for large devices --}}
-    <ul class="hidden list-reset lg:flex">
+    <ul class="hidden list-reset lg:flex font-light">
 
         <li class="dropdown-btn mx-4">
             <a href="#" class="pb-6 hover:text-blue-light">Diving <i class="fas fa-angle-down ml-1"></i></a>

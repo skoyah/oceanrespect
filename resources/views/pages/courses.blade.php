@@ -19,7 +19,7 @@
             @endslot
 
             @slot('price')
-                40
+                25
             @endslot
 
             @slot('modalId')

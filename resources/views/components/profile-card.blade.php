@@ -20,7 +20,7 @@
                 <a href="#">
                     <i class="fab fa-instagram mx-3 text-2xl hover:text-grey-darker"></i>
                 </a>
-                <a href="#">
+                <a href="{{ $fbLink }}" target="_blank">
                     <i class="fab fa-facebook-square mx-3 text-2xl hover:text-grey-darker"></i>
                 </a>
                 <a href="#">

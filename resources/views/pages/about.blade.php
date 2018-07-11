@@ -41,6 +41,10 @@
                 João Rodrigues
             @endslot
 
+            @slot('fbLink')
+                https://www.facebook.com/joao.rodrigues.3154
+            @endslot
+
             @slot('position')
                 Co-founder | Technical director
             @endslot
@@ -83,6 +87,10 @@
                 Nuno Potes
             @endslot
 
+            @slot('fbLink')
+                https://www.facebook.com/nzpotes
+            @endslot
+
             @slot('position')
                 Co-founder | Divemaster
             @endslot
@@ -118,6 +126,10 @@
 
             @slot('name')
                 Rodrigo Clímaco
+            @endslot
+
+            @slot('fbLink')
+                https://www.facebook.com/algarvedolphinlovers/
             @endslot
 
             @slot('position')
@@ -156,6 +168,10 @@
                 Diogo Brito
             @endslot
 
+            @slot('fbLink')
+                https://www.facebook.com/diogo.brito.965
+            @endslot
+
             @slot('position')
                 Divemaster
             @endslot
@@ -180,6 +196,10 @@
 
             @slot('name')
                 José Branco
+            @endslot
+
+            @slot('fbLink')
+                https://www.facebook.com/jose.miguel.16144
             @endslot
 
             @slot('position')

@@ -1,5 +1,9 @@
     <footer class="bg-grey-darkest text-white flex flex-col md:flex-row justify-between items-center p-8 font-light text-xs tracking-wide">
 
+        <p class="mb-6 md:mb-0">
+            Developed by <a href="https://skoyah.github.io/" class="underline hover:text-blue" target="_blank">João Santos</a>
+        </p>
+
         <p class="mb-6 md:mb-0">Copyright &copy; 2018 OceanRespect. All Rights Reserved.</p>
 
         <ul class="list-reset flex">

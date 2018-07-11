@@ -20,6 +20,10 @@
 
         <p class="font-normal antialiased text-grey-darkest">Price: <span class="font-semibold text-black">40€</span> for 1 dive / <span class="font-semibold text-black">75€</span> for 2 dives.</p>
 
+        <div class="flex justify-center my-10">
+            <a href="/contact" class="bg-green rounded py-3 px-6 tracking-wide hover:bg-green-light font-light shadow text-white uppercase text-lg">Book Now</a>
+        </div>
+
         <div class="grid grid-trips my-10 overflow-hidden">
             <div class="trip-img trip-01 bg-red">
                 <img src="./img/trips/half.jpg"  class="" alt="">
@@ -33,10 +37,6 @@
             <div class="trip-img trip-04 bg-red">
                 <img src="./img/trips/salemas.jpg"  class="" alt="">
             </div>
-        </div>
-
-        <div class="flex justify-center">
-            <a href="/contact" class="bg-green rounded py-3 px-6 tracking-wide hover:bg-green-light font-light shadow text-white uppercase text-lg">Book Now</a>
         </div>
     </section>
 @endsection
